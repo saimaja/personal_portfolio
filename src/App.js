@@ -17,7 +17,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Navbar style={{ paddingTop: '35px', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '35px' }} collapseOnSelect expand="lg" >
+        <Navbar style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} collapseOnSelect expand="lg" >
           <Navbar.Brand href="/">Saima Akhtar</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
