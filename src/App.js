@@ -4,7 +4,7 @@ import Projects from './Projects';
 import About from './About';
 import CV from './CV';
 import Contact from './Contact';
-import Research from './Research';
+import Words from './Words';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap'
@@ -26,7 +26,7 @@ export default class App extends Component {
             <Nav>
               {/* <Nav.Link href="about">About</Nav.Link> */}
               <Nav.Link href="cv">CV</Nav.Link>
-              <Nav.Link href="research">Research</Nav.Link>
+              <Nav.Link href="words">Words</Nav.Link>
               <Nav.Link href="projects">Projects</Nav.Link>
               <Nav.Link href="contact">Contact</Nav.Link>
             </Nav>
@@ -44,8 +44,8 @@ export default class App extends Component {
             <Route exact path='/cv' render={() =>
               <CV />} />
 
-            <Route exact path='/research' render={() =>
-              <Research />} />
+            <Route exact path='/words' render={() =>
+              <Words />} />
 
             <Route exact path='/projects' render={() =>
               <Projects />} />

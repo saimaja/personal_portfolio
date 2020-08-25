@@ -50,3 +50,13 @@ width: 100%;
   background-repeat: no-repeat;
   background-size: 100%; */
 }
+
+.ui.medium.circular.image.Change:hover {
+  background-color: black;
+}
+
+.column.Change:hover {
+  background-color: black;
+}
+
+

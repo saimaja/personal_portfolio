@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid } from 'semantic-ui-react'
 
-export default class Research extends Component {
+export default class Words extends Component {
     render() {
         return (
             <div> 
