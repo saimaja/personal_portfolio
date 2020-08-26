@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Reveal, Image } from 'semantic-ui-react'
+// import { Grid } from 'semantic-ui-react'
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import elicit from './images/elicit.png'
 import IFOTF from './images/IFOTF.png'
@@ -22,7 +22,7 @@ export default class Projects extends Component {
                     alt="" />
                   <MDBMask className="flex-center"
                    overlay = 'black-strong' >
-                    <p className="white-text">Multitudes</p>
+                    <p className="project-text">MULTITUDES</p>
                   </MDBMask>
                 </MDBView>
               </MDBCol>
@@ -36,7 +36,7 @@ export default class Projects extends Component {
               />
               <MDBMask className="flex-center"
               overlay = 'black-strong'>
-                <p className="white-text">E-licit Art</p>
+                <p className="project-text">E-LICIT ART</p>
               </MDBMask>
             </MDBView>
           </MDBCol>
@@ -49,7 +49,7 @@ export default class Projects extends Component {
                     alt="" />
                   <MDBMask className="flex-center"
                    overlay = 'black-strong' >
-                    <p className="white-text">Trivia</p>
+                    <p className="project-text">TRIVIA</p>
                   </MDBMask>
                 </MDBView>
               </MDBCol>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
                     alt="" />
                   <MDBMask className="flex-center" 
                    overlay = 'black-strong'>
-                    <p className="white-text">Monuments</p>
+                    <p className="project-text">MONUMENTS</p>
                   </MDBMask>
                 </MDBView>
               </MDBCol>
@@ -77,7 +77,7 @@ export default class Projects extends Component {
                     alt="" />
                   <MDBMask className="flex-center"
                    overlay = 'black-strong' >
-                    <p className="white-text">In Front of the Factory</p>
+                    <p className="project-text">IN FRONT OF THE FACTORY</p>
                   </MDBMask>
                 </MDBView>
               </MDBCol>
@@ -94,7 +94,7 @@ export default class Projects extends Component {
             //     className="img-fluid"
             //     alt=""/>
             //   <MDBMask className="flex-center" overlay="red-strong">
-            //     <p className="white-text">Strong overlay</p>
+            //     <p className="project-text">Strong overlay</p>
             //   </MDBMask>
             //   </MDBView>
                     /* <Grid.Column className='Change'>

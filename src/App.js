@@ -18,17 +18,17 @@ export default class App extends Component {
     return (
       <div>
         <Navbar style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} collapseOnSelect expand="lg" >
-          <Navbar.Brand href="/">Saima Akhtar</Navbar.Brand>
+          <Navbar.Brand className='nav-name-text Change' href="/">SAIMA AKHTAR</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
               {/* <Nav.Link href="about">About</Nav.Link> */}
-              <Nav.Link href="cv">CV</Nav.Link>
-              <Nav.Link href="words">Words</Nav.Link>
-              <Nav.Link href="projects">Projects</Nav.Link>
-              <Nav.Link href="contact">Contact</Nav.Link>
+              <Nav.Link href="cv" className='nav-menu-text'>CV</Nav.Link>
+              <Nav.Link href="words" className='nav-menu-text'>WORDS</Nav.Link>
+              <Nav.Link href="projects" className='nav-menu-text'>PROJECTS</Nav.Link>
+              <Nav.Link href="contact" className='nav-menu-text'>CONTACT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

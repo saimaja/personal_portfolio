@@ -59,4 +59,39 @@ width: 100%;
   background-color: black;
 }
 
+.project-text {
+  font-family: raleway, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  vertical-align: middle;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.nav-name-text {
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: 800;
+    color:black;
+    letter-spacing: 2px;
+}
+
+.nav-name-text.Change:hover{
+  color: grey
+}
+
+.nav-menu-text {
+  font-family: raleway;
+  letter-spacing: 1.5px;
+}
+
+.text {
+  font-family: raleway;
+}
+
+.bold-text{
+  font-family: raleway;
+  font-weight: 800;
+}
 
