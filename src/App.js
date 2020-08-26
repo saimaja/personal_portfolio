@@ -11,7 +11,7 @@ import Multitudes from './Multitudes.js'
 import Monuments from './Monuments.js'
 import IFOTF from './IFOTF.js'
 import './App.css';
-import { Link, Switch, Route } from 'react-router-dom'
+import { NavLink, Switch, Route } from 'react-router-dom'
 import { Navbar, Nav} from 'react-bootstrap'
 // import { Grid, Image, Segment } from 'semantic-ui-react'
 // import pic from './images/saimaprofile.png'
@@ -26,16 +26,16 @@ export default class App extends Component {
       <div>
        
         <Navbar style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} collapseOnSelect expand="lg">
-          <Navbar.Brand as={Link} to="/" className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to="/" className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-              <Nav.Link as={Link} to='/cv' className='nav-menu-text'>CV</Nav.Link> 
-              <Nav.Link as={Link} to="/words" className='nav-menu-text'>WORDS</Nav.Link>
-              <Nav.Link as={Link} to="/projects" className='nav-menu-text'>PROJECTS</Nav.Link>
-              <Nav.Link as={Link} to="/contact" className='nav-menu-text'>CONTACT</Nav.Link>
+              <Nav.Link as={NavLink} to='/cv' activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
+              <Nav.Link as={NavLink} to="/words" activeStyle={{color: 'teal'}} className='nav-menu-text'>WORDS</Nav.Link>
+              <Nav.Link as={NavLink} to="/projects" activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
+              <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
