@@ -5,6 +5,11 @@ import About from './About';
 import CV from './CV';
 import Contact from './Contact';
 import Words from './Words';
+import Trivia from './Trivia.js'
+import Elicit from './Elicit.js'
+import Multitudes from './Multitudes.js'
+import Monuments from './Monuments.js'
+import IFOTF from './IFOTF.js'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap'
@@ -52,6 +57,22 @@ export default class App extends Component {
 
             <Route exact path='/contact' render={() =>
               <Contact />} />
+
+                <Route path='/projects/elicit' render={() =>
+          <Elicit />} />
+
+        <Route path='/projects/ifotf' render={() =>
+          <IFOTF />} /> 
+
+        <Route path='/projects/monuments' render={() =>
+          <Monuments />} />
+
+        <Route path='/projects/multitudes' render={() =>
+          <Multitudes />} />
+
+        <Route path='/projects/trivia' render={() =>
+          <Trivia />} />
+
 
           </Switch>
         </Router>

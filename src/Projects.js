@@ -1,89 +1,106 @@
 import React, { Component } from 'react'
 // import { Grid } from 'semantic-ui-react'
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import elicit from './images/elicit.png'
-import IFOTF from './images/IFOTF.png'
-import monuments from './images/monuments.png'
-import multitudes from './images/multitudes.png'
-import trivia from './images/trivia.png'
+import { Link } from 'react-router-dom';
+import elicit_img from './images/elicit.png'
+import IFOTF_img from './images/IFOTF.png'
+import monuments_img from './images/monuments.png'
+import multitudes_img from './images/multitudes.png'
+import trivia_img from './images/trivia.png'
 import './App.css'
 
 export default class Projects extends Component {
     render() {
         return (
-            <MDBContainer className="mt-4">
+            
+             <MDBContainer className="mt-4">
+            {/* <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={3}> */}
             <MDBRow>
 
-              <MDBCol md="4">
+            <MDBCol md="4">
+                <Link to={'/projects/monuments'}>
                 <MDBView hover zoom>
                   <img
-                    src={multitudes}
+                    src={monuments_img}
                     className="img-fluid"
                     alt="" />
-                  <MDBMask className="flex-center"
-                   overlay = 'black-strong' >
-                    <p className="project-text">MULTITUDES</p>
+                  <MDBMask className="flex-center" 
+                   overlay = 'teal-strong'>
+                    <p className="project-text">MONUMENTS</p>
                   </MDBMask>
                 </MDBView>
+                </Link>
               </MDBCol>
+
             
           <MDBCol md="4">
+          <Link to={'/projects/elicit'}>
             <MDBView hover zoom>
               <img
-                src={elicit}
+                src={elicit_img}
                 className="img-fluid"
                 alt=""
               />
               <MDBMask className="flex-center"
-              overlay = 'black-strong'>
+              overlay = 'teal-strong'>
                 <p className="project-text">E-LICIT ART</p>
               </MDBMask>
             </MDBView>
+            </Link>
           </MDBCol>
 
           <MDBCol md="4">
+          <Link to={'/projects/trivia'}>
                 <MDBView hover zoom>
                   <img
-                    src={trivia}
+                    src={trivia_img}
                     className="img-fluid"
                     alt="" />
                   <MDBMask className="flex-center"
-                   overlay = 'black-strong' >
+                   overlay = 'teal-strong' >
                     <p className="project-text">TRIVIA</p>
                   </MDBMask>
                 </MDBView>
+                </Link>
               </MDBCol>
               </MDBRow>
 
               <MDBRow className="mt-5">
+              
               <MDBCol md="4">
+              <Link to={'/projects/multitudes'}>
                 <MDBView hover zoom>
                   <img
-                    src={monuments}
-                    className="img-fluid"
-                    alt="" />
-                  <MDBMask className="flex-center" 
-                   overlay = 'black-strong'>
-                    <p className="project-text">MONUMENTS</p>
-                  </MDBMask>
-                </MDBView>
-              </MDBCol>
-
-              <MDBCol md="4">
-                <MDBView hover zoom>
-                  <img
-                    src={IFOTF}
+                    src={multitudes_img}
                     className="img-fluid"
                     alt="" />
                   <MDBMask className="flex-center"
-                   overlay = 'black-strong' >
+                   overlay = 'teal-strong' >
+                    <p className="project-text">MULTITUDES</p>
+                  </MDBMask>
+                </MDBView>
+                </Link>
+              </MDBCol>
+
+              <MDBCol md="4">
+              <Link to={'/projects/ifotf'}>
+                <MDBView hover zoom>
+                  <img
+                    src={IFOTF_img}
+                    className="img-fluid"
+                    alt="" />
+                  <MDBMask className="flex-center"
+                   overlay = 'teal-strong' >
                     <p className="project-text">IN FRONT OF THE FACTORY</p>
                   </MDBMask>
                 </MDBView>
+                </Link>
               </MDBCol>
         </MDBRow> 
-      </MDBContainer>
-  
+        {/* </Grid> */}
+      </MDBContainer> 
+      
+      
   
  
       
@@ -93,7 +110,7 @@ export default class Projects extends Component {
             //   <img src={monuments}
             //     className="img-fluid"
             //     alt=""/>
-            //   <MDBMask className="flex-center" overlay="red-strong">
+            //   <MDBMask className="flex-center" overlayteal-strong">
             //     <p className="project-text">Strong overlay</p>
             //   </MDBMask>
             //   </MDBView>
@@ -125,3 +142,4 @@ export default class Projects extends Component {
         )
     }
 }
+
