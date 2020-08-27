@@ -32,6 +32,7 @@ export default class App extends Component {
             <Nav className="mr-auto">
             </Nav>
             <Nav>
+              <Nav.Link as={NavLink} to='/about' activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
               <Nav.Link as={NavLink} to='/cv' activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
               <Nav.Link as={NavLink} to="/words" activeStyle={{color: 'teal'}} className='nav-menu-text'>WORDS</Nav.Link>
               <Nav.Link as={NavLink} to="/projects" activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
@@ -45,8 +46,8 @@ export default class App extends Component {
             <Route exact path='/' render={() =>
               <About />} />
 
-            {/* <Route exact path='/about' render={() =>
-              <About />} /> */}
+            <Route exact path='/about' render={() =>
+              <About />} />
 
             <Route exact path='/cv' render={() =>
               <CV />} />

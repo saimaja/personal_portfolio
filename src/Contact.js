@@ -5,22 +5,22 @@ export default class Contact extends Component {
     render() {
         return (
 
-            <Grid style={{ paddingTop: '100px', paddingLeft: '150px' }} stackable columns={4}>
+            <Grid centered style={{ paddingTop: '100px'}} stackable columns>
 
-                <Grid.Column>
-                <Icon circular name='github' size='big'/>
+                <Grid.Column style={{width: '10%'}}>
+                <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='big' /></a>
                 </Grid.Column>
 
-                <Grid.Column>
-                <Icon circular name='twitter'size='big' />
+                <Grid.Column style={{width: '10%'}}>
+                <a href="https://www.linkedin.com/in/saimaakhtar/" target="_blank" rel="noopener noreferrer" ><Icon className='linkedin-color Change' circular name='linkedin' size='big'/></a>
+                </Grid.Column>
+                
+                <Grid.Column style={{width: '10%'}}>
+                <a href="https://github.com/saimaja" target="_blank" rel="noopener noreferrer"><Icon className='github-color Change' circular name='github' size='big'/></a>
                 </Grid.Column>
 
-                <Grid.Column>
-                <Icon circular name='linkedin' size='big'/>
-                </Grid.Column>
-
-                <Grid.Column>
-                <Icon circular name='mail'size='big' />
+                <Grid.Column style={{width: '10%'}}>
+                <a href="https://www.twitter.com/saimajakhtar" target="_blank" rel="noopener noreferrer"><Icon className='twitter-color Change' circular name='twitter'size='big' /></a>
                 </Grid.Column>
               
             </Grid>

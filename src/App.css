@@ -91,7 +91,44 @@ width: 100%;
   font-family: raleway;
 }
 
-.bold-text{
+.cv-caption-text{
   font-family: raleway;
-  font-weight: 800;
+  font-size: 16px;
+}
+
+.cv-header {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.github-color{
+  color: lightgrey;
+}
+.github.big.circular.icon.Change:hover {
+  color: #333;
+  background-color: lightgrey !important;
+}
+
+.twitter-color {
+  color: lightgrey;
+}
+.twitter.big.circular.icon.Change:hover {
+  color: #1DA1F2;
+  background-color: lightgrey !important;
+}
+
+.linkedin-color {
+  color: lightgrey;
+}
+.linkedin.big.circular.icon.Change:hover {
+  color: #0e76a8;
+  background-color: lightgrey !important;
+}
+.mail-color {
+  color: lightgrey;
+}
+.mail.big.circular.icon.Change:hover {
+  color: #B23121;
+  background-color: lightgrey !important;
 }
