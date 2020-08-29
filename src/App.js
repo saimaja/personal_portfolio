@@ -4,9 +4,10 @@ import Projects from './Projects';
 import About from './About';
 import CV from './CV';
 import Contact from './Contact';
-import Words from './Words';
+import Research from './Research';
 import Trivia from './Trivia.js'
 import Elicit from './Elicit.js'
+import Anqa from './Anqa.js'
 import Multitudes from './Multitudes.js'
 import Monuments from './Monuments.js'
 import IFOTF from './IFOTF.js'
@@ -34,7 +35,7 @@ export default class App extends Component {
             <Nav>
               <Nav.Link as={NavLink} to='/about' activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
               <Nav.Link as={NavLink} to='/cv' activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
-              <Nav.Link as={NavLink} to="/words" activeStyle={{color: 'teal'}} className='nav-menu-text'>WORDS</Nav.Link>
+              <Nav.Link as={NavLink} to="/research" activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
               <Nav.Link as={NavLink} to="/projects" activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
               <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link>
             </Nav>
@@ -52,8 +53,8 @@ export default class App extends Component {
             <Route exact path='/cv' render={() =>
               <CV />} />
 
-            <Route exact path='/words' render={() =>
-              <Words />} />
+            <Route exact path='/research' render={() =>
+              <Research />} />
 
             <Route exact path='/projects' render={() =>
               <Projects />} />
@@ -75,6 +76,9 @@ export default class App extends Component {
 
         <Route exact path='/projects/trivia' render={() =>
           <Trivia />} />
+
+        <Route exact path='/projects/anqa' render={() =>
+          <Anqa />} />  
 
 
           </Switch>

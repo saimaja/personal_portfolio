@@ -8,7 +8,7 @@ export default class Contact extends Component {
             <Grid centered style={{ paddingTop: '100px'}} stackable columns>
 
                 <Grid.Column style={{width: '10%'}}>
-                <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='big' /></a>
+                <a href="mailto:sakhtar@berkeley.edu"><Icon className='mail-color Change' circular name='mail'size='big' /></a>
                 </Grid.Column>
 
                 <Grid.Column style={{width: '10%'}}>

@@ -99,7 +99,14 @@ width: 100%;
 .cv-header {
   font-family: raleway;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
+}
+
+.cv-subheader {
+  font-family: raleway;
+  font-size: 12px;
+  display: block;
+  line-height: 1;
 }
 
 .github-color{
