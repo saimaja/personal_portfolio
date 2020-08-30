@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid } from 'semantic-ui-react'
+import { Grid, Divider } from 'semantic-ui-react'
 
 export default class CV extends Component {
     render() {
@@ -45,6 +45,8 @@ export default class CV extends Component {
 
 
                     </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         EDUCATION
@@ -69,6 +71,8 @@ export default class CV extends Component {
                             Bachelor of Science (B.Sc.), Psychology, Bachelor of Arts (B.A.), Architecture
                         <br />
                     </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         SKILLS
@@ -81,6 +85,9 @@ export default class CV extends Component {
                         <span className='cv-header'>Languages</span><br />
                             Urdu, Arabic (proficient)
                     </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
+
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         FELLOWSHIPS + GRANTS
@@ -90,14 +97,29 @@ export default class CV extends Component {
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University | New Haven, CT | 2018-2019</span>
                         <span className='text'>Irmgard Coninx Fellowship </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin/Forum Transregionale Studien | Berlin, Germany | 2015-2016</span>
+                        <span className='text'>Dean's Normative Time Fellowship </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>UC - Berkeley | Berkeley, CA | 2013-2014</span>
+                        <span className='text'>Ford Fellowship </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Benson Ford Research Center | Dearborn, MI | 2012-2013</span>
+                        <span className='text'>Foreign Language Area Studies Scholarship in Arabic (FLAS) </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>UC - Berkeley | Berkeley, CA | 2008-2009</span>
+                        <span className='text'>Aga Khan Trust for Culture Grant </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>MIT | Cambridge, MA | 2006-2007</span>
+                        <span className='text'>Doris Duke Foundation Research Grant </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>2006-2007</span>
                         <span className='text'>AIA Research Fellowship</span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> American Institute of Architects (Academy of Neuroscience for Architecture) | Washington, DC | 2004-2005</span>
                     </Grid.Column>
+                     <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         TEACHING + WORKSHOPS
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
+                    <span className='cv-header'>Teaching</span><br />
+                            Something here
+                            <br />
+                        
                         <span className='cv-header'>Invited Lectures</span><br />
                             Something here
                             <br />
@@ -109,6 +131,8 @@ export default class CV extends Component {
                         <span className='cv-header'>Workshops Organized</span><br />
                             Something here
                     </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         OTHER
