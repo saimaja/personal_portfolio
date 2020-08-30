@@ -87,6 +87,71 @@ export default class CV extends Component {
                     </Grid.Column>
                     <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
 
+                    <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
+                        TEACHING
+                    </Grid.Column>
+                    <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
+                    {/* <span className='cv-header'>Teaching + Invited Talks (Selected)</span><br /> */}
+                        <span className='text'>Invited Critic, <a href="https://www.architecture.yale.edu/courses/23781-advanced-design-studio" rel="noopener noreferrer" target="_blank">Myths of Permanent Cities</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Advanced Design Studio | Spring 2019</span>
+                        <span className='text'>Invited Critic, <a href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Graduate Studio-Seminar | Spring 2018</span>
+                        <span className='text'>Guest Lecturer, "Industrial Detroit", <a href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Graduate Studio-Seminar | Spring 2018</span>
+                        <span className='text'>Curator's Lecture, "Orientalism and Art", <a href="https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban" rel="noopener noreferrer" target="_blank">Multitudes Exhibit Opening</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>St. Lawrence University | Canton, NY | Fall 2017</span>
+                        <span className='text'>Instructor, Energy, Society, and Environmental Design</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>UC - Berkeley, Department of Architecture | Spring 2014</span>
+                        <span className='text'>Teaching Assistant, American Cultural Landscapes</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>UC - Berkeley, Geography and American Studies | Fall 2012</span>
+                        <span className='text'>Teaching Assistant, History of Architecture and Urbanism</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>UC - Berkeley, Department of Architecture | 2008-2009</span>
+                    </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
+
+                    <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
+                        WORKSHOPS + TALKS
+                    </Grid.Column>
+                    <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
+                        <span className='cv-header'>Organized</span><br />
+                        <span className='text'>Ethics and the Preservation of Cultural Heritage, Workshop</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University Law School, sponsored by <a href="https://ipch.yale.edu/" rel="noopener noreferrer" target="_blank" >Yale IPCH</a> | New Haven, CT | May 2019</span>
+                        <span className='text'><a href="https://artgallery.yale.edu/calendar/events/lecture-journey-heritage-risk" rel="noopener noreferrer" target="_blank" >The Journey of Heritage “At Risk”</a>, Lecture by Trinidad Rico</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University Art Gallery, sponsored by <a href="https://ipch.yale.edu/" rel="noopener noreferrer" target="_blank" >Yale IPCH</a> | New Haven, CT | May 2019</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/silvia-federici/" rel="noopener noreferrer" target="_blank" >Globalization of Women’s Work</a>, Lecture by Silvia Federici</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | July 2018</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/imaging-a-middle-east/" rel="noopener noreferrer" target="_blank" >Imaging a "Middle East"</a>, Symposium</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | July 2017</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/middle-of-where-east-of-what/" rel="noopener noreferrer" target="_blank" >Middle of Where, East of What? New Geographies of Conflict</a>, Symposium</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | July 2017</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/out-of-work/" rel="noopener noreferrer" target="_blank" >Out of Work</a>, Discussion</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | June 2017</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/in-front-of-the-factory/" rel="noopener noreferrer" target="_blank" >In Front of the Factory: Cinematic Spaces of Labour</a>, Conference + Film Screening</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin + ACUD Kino | Berlin, Germany | May 2016</span>
+                        <span className='text'>Urban Planning and Social Space, Panel</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Middle Eastern Studies Association | New Orleans, LA | 2013</span>
+                        <span className='text'>De-Canonizing Architectural History, Workshop</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Society of Architectural Historians | Detroit, MI | 2012</span>
+                        <br />
+
+                        <span className='cv-header'>Invited</span><br />
+                        <span className='text'>Invited Talk, <a href="https://www.ici-berlin.org/events/as-workers-leave-the-factory-whats-left-behind/" rel="noopener noreferrer" target="_blank">As Workers Leave the Factory, What's Left Behind?</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | 2018</span>
+                        <span className='text'>Invited Talk, <a href="https://macmillan.yale.edu/event/search-islamic-avant-garde" rel="noopener noreferrer" target="_blank">In Search of an Islamic Avante Garde</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale MacMillan Center | New Haven, CT | 2018</span>
+                        <span className='text'>Invited Talk, <a href="https://managingracialcapital.wordpress.com/" rel="noopener noreferrer" target="_blank">Managing Racial Capital</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Freie Universitat | Berlin, Germany | 2017</span>
+                        <span className='text'>Discussant, "Digital Heritage", <a href="http://www.carmah.berlin/otherwise-symposium/" rel="noopener noreferrer" target="_blank">CARMAH World Cafe on Museums and Heritage</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Humboldt Universitat | Berlin, Germany | 2017</span>
+                        <span className='text'>Invited Talk, "Mapping the City: The Right to Public Space", <a href="https://www.lahorebiennale.org/projects/city-in-context/" rel="noopener noreferrer" target="_blank">City in Context</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Goethe-Institut + Lahore Biennale Foundation | Karachi, Pakistan | 2016</span>
+                        <span className='text'>Invited Talk, <a href="https://www.birmingham.ac.uk/research/activity/ias/workshops/2016/global-middle-east-age-of-speed.aspx" rel="noopener noreferrer" target="_blank">The Global Middle East in the Age of Speed</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>University of Birmingham, Institute for Advanced Studies | Birmingham, UK | 2016</span>
+                        <span className='text'>Discussant, "On Preservation", National Trust for Historic Preservation</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Rockefeller Estate | Tarrytown, NY | 2015</span>
+                    </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
 
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
@@ -112,34 +177,15 @@ export default class CV extends Component {
                     </Grid.Column>
                      <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
 
-                    <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
-                        TEACHING + WORKSHOPS
-                    </Grid.Column>
-                    <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
-                    <span className='cv-header'>Teaching</span><br />
-                            Something here
-                            <br />
-                        
-                        <span className='cv-header'>Invited Lectures</span><br />
-                            Something here
-                            <br />
-
-                        <span className='cv-header'>Invited Workshops</span><br />
-                            Something here
-                            <br />
-
-                        <span className='cv-header'>Workshops Organized</span><br />
-                            Something here
-                    </Grid.Column>
-                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+                    
 
 
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         OTHER
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
-                        <span className='cv-header'></span><br />
-
+                    <span className='text'>Co-curator, Industrial Heritage Walking Tour </span>
+                    <span className='cv-subheader' style={{paddingBottom: '10px'}}><a href="https://www.artidea.org/" rel="noopener noreferrer" target="_blank">International Festival of Arts and Ideas</a> | New Haven, CT | June 2018</span>
                     </Grid.Column>
 
                 </Grid>
