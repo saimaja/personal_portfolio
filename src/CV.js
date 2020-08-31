@@ -16,8 +16,9 @@ export default class CV extends Component {
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> New Haven, CT | 2016-2019</span>
                       
                         <span>Managed cultural heritage preservation projects between the fields of computer science and architecture. Oversaw a team of
-                            computer science students and researchers to develop <i>Anqa</i>, an open access cultural heritage platform that documented six sites in Damascus, Syria. 
-                            Spearheaded workshops, research, design, and wireframing, with an emphasis on empathy and storytelling from the ground up. To learn more, click
+                            computer science students and researchers to develop <i>Anqa</i>, an open access web platform documenting six sites in Damascus, Syria. 
+                            Spearheaded workshops, research, design, and wireframing, with an emphasis on empathy and storytelling from the ground up. Co-authored two peer-reviewed publications.
+                            To learn more, click
                             <a href='/projects/anqa'> here.</a></span>
                         <br />
                         <br />
@@ -40,7 +41,7 @@ export default class CV extends Component {
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> Oakland, CA | 2014</span>
                       
                         <span> Conducted research based on design thinking for <a href='https://www.cell-ed.com/' rel="noopener noreferrer" target='_blank'>Cell-ED</a>, an English-as-a-Second-Language (ESL) educational 
-                            startup for adults. Wrote briefs and <a href='https://gobeefellows.wordpress.com/2014/08/04/an-education/' rel="noopener noreferrer" target='_blank'>literacy analyses </a> 
+                            startup for adult learning. Wrote briefs and <a href='https://gobeefellows.wordpress.com/2014/08/04/an-education/' rel="noopener noreferrer" target='_blank'>literacy analyses </a> 
                             that focused on improving access to English learning for adults in upstate New York, and assisted in improving pedagogical design.</span>
 
 
