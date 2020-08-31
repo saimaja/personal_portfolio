@@ -16,7 +16,7 @@ export default class CV extends Component {
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> New Haven, CT | 2016-2019</span>
                       
                         <span>Managed cultural heritage preservation projects between the fields of computer science and architecture. Oversaw a team of
-                            computer science students and researchers to develop <i>Anqa</i>, an open access web platform documenting six sites in Damascus, Syria. 
+                            computer science students and researchers to develop <i>Anqa</i>, an open access web platform documenting six cultural heritage sites in Damascus, Syria. 
                             Spearheaded workshops, research, design, and wireframing, with an emphasis on empathy and storytelling from the ground up. Co-authored two peer-reviewed publications.
                             To learn more, click
                             <a href='/projects/anqa'> here.</a></span>
