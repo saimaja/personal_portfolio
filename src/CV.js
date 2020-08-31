@@ -17,7 +17,7 @@ export default class CV extends Component {
                       
                         <span>Managed cultural heritage preservation projects between the fields of computer science and architecture. Oversaw a team of
                             computer science students and researchers to develop <i>Anqa</i>, an open access web platform documenting six cultural heritage sites in Damascus, Syria. 
-                            Spearheaded workshops, research, design, and wireframing, with an emphasis on empathy and storytelling from the ground up. Co-authored two peer-reviewed publications.
+                            Spearheaded workshops, research, design, and wireframing, with an emphasis on ethical storytelling from the ground up. Co-authored two peer-reviewed publications.
                             To learn more, click
                             <a href='/projects/anqa'> here.</a></span>
                         <br />
