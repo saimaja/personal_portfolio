@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 // import { Grid } from 'semantic-ui-react'
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import { Link } from 'react-router-dom';
+import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact"
+import { Link } from 'react-router-dom'
+import { Grid, Divider } from 'semantic-ui-react'
 import elicit_img from './images/elicit.png'
 import IFOTF_img from './images/IFOTF.png'
 import monuments_img from './images/monuments.png'
@@ -12,10 +13,19 @@ import './App.css'
 export default class Projects extends Component {
     render() {
         return (
-            
+           
+
              <MDBContainer className="mt-4">
-            {/* <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={3}> */}
+            <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
+            
             <MDBRow>
+                
+            <Grid.Column style={{width: '30%', paddingTop: '0', paddingBottom: '0'}} className='cv-caption-text'>
+            DIGITAL
+                
+         
+            </Grid.Column>
+          <Grid.Column style={{ width: '100%', paddingTop: '0' }}><Divider /></Grid.Column>
 
             <MDBCol md="4">
                 <Link to={'/projects/monuments'}>
@@ -64,8 +74,15 @@ export default class Projects extends Component {
                 </Link>
               </MDBCol>
               </MDBRow>
+           
 
               <MDBRow className="mt-5">
+              <Grid.Column style={{width: '30%', paddingTop: '0', paddingBottom: '0'}} className='cv-caption-text'>
+            CURATORIAL
+                
+         
+            </Grid.Column>
+          <Grid.Column style={{ width: '100%', paddingTop: '0' }}><Divider /></Grid.Column>
               
               <MDBCol md="4">
               <Link to={'/projects/multitudes'}>
@@ -97,10 +114,10 @@ export default class Projects extends Component {
                 </Link>
               </MDBCol>
         </MDBRow> 
-        {/* </Grid> */}
+        </Grid> 
       </MDBContainer> 
       
-      
+    
   
  
       
