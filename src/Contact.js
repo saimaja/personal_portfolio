@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Icon } from 'semantic-ui-react'
+import './App.css';
 
 export default class Contact extends Component {
     render() {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Grid } from 'semantic-ui-react'
+import { Grid, Icon } from 'semantic-ui-react'
 import pic from './images/saimaprofile.png'
+import './App.css';
 
 export default class About extends Component {
     render() {
@@ -10,11 +11,31 @@ export default class About extends Component {
           <img className='image-component' src={pic} alt={pic} />
         </div>
         <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
+    
           <Grid.Column className='text'>
-              <b>TEST</b>
+          {/* <Grid.Column style={{width: '10%'}}> */}
+         <span style={{marginLeft: '5px'}}> Say hello!</span>
+          <br />
+          <br />
+                <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='large' /></a>
+                {/* </Grid.Column> */}
+
+                {/* <Grid.Column style={{width: '10%'}}> */}
+                <a href="https://www.linkedin.com/in/saimaakhtar/" target="_blank" rel="noopener noreferrer" ><Icon className='linkedin-color Change' circular name='linkedin' size='large'/></a>
+                {/* </Grid.Column> */}
+                
+                {/* <Grid.Column style={{width: '10%'}}> */}
+                <a href="https://github.com/saimaja" target="_blank" rel="noopener noreferrer"><Icon className='github-color Change' circular name='github' size='large'/></a>
+                {/* </Grid.Column> */}
+
+                {/* <Grid.Column style={{width: '10%'}}> */}
+                <a href="https://www.twitter.com/saimajakhtar" target="_blank" rel="noopener noreferrer"><Icon className='twitter-color Change' circular name='twitter'size='large' /></a>
+                {/* </Grid.Column> */}
+              
           </Grid.Column>
           <Grid.Column style={{textAlign: 'justify'}} className='text'>
-            I am a full stack developer with a passion for human-oriented design and research. As a trained architect and urban historian, the questions that drive me are at the intersection of technology and architecture -- whether through modelling buildings in 3D, designing web platforms for urban research, or thinking about the philosophical implications of using technology to augment the built environment. I bring strong skills in creative problem solving, project management, teamwork, and critical thinking to help institutions to build better, more socially-minded technology.
+          Full Stack Developer with a passion for human-oriented design. As a trained architect and urban historian, the questions that drive me are at the intersection of technology and design -- whether I’m building user-friendly applications with Rails, 
+          React, and Javascript, or thinking about the ethical implications of integrating technology into our everyday lives. I bring strong skills in creative problem solving, project management, and critical thinking to help businesses build better, more socially-minded technology.
           </Grid.Column>
         </Grid>
         </div>

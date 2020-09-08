@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Projects from './Projects';
 import About from './About';
 import CV from './CV';
-import Contact from './Contact';
+// import Contact from './Contact';
 import Research from './Research';
 import Trivia from './Trivia.js'
 import Elicit from './Elicit.js'
@@ -37,7 +37,7 @@ export default class App extends Component {
               <Nav.Link as={NavLink} to='/cv' activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
               <Nav.Link as={NavLink} to="/research" activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
               <Nav.Link as={NavLink} to="/projects" activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
-              <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link>
+              {/* <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -59,8 +59,8 @@ export default class App extends Component {
             <Route exact path='/projects' render={() =>
               <Projects />} />
 
-            <Route exact path='/contact' render={() =>
-              <Contact />} />
+            {/* <Route exact path='/contact' render={() =>
+              <Contact />} /> */}
 
                 <Route exact path='/projects/elicit' render={() =>
           <Elicit />} />

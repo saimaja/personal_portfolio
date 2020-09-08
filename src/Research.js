@@ -12,12 +12,13 @@ export default class Research extends Component {
         <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
           <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
           
-              
+           
        
           </Grid.Column>
           <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
         
-            I am a full stack developer with a passion for human-oriented design and research.
+            I write about architecture, cities, labor + immigration, technology, cultural heritage, and preservation.
+            {/* I am a full stack developer with a passion for human-oriented design and research. */}
         
           </Grid.Column>
           <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
@@ -64,6 +65,50 @@ export default class Research extends Component {
           </Grid.Column>
           <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
 
+          <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
+                        WORKSHOPS + TALKS
+                    </Grid.Column>
+                    <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
+                        <span className='cv-header'>Organized</span><br />
+                        <span className='text'>Ethics and the Preservation of Cultural Heritage, Workshop</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University Law School, sponsored by <a href="https://ipch.yale.edu/" rel="noopener noreferrer" target="_blank" >Yale IPCH</a> | New Haven, CT | May 2019</span>
+                        <span className='text'><a href="https://artgallery.yale.edu/calendar/events/lecture-journey-heritage-risk" rel="noopener noreferrer" target="_blank" >The Journey of Heritage “At Risk”</a>, Lecture by Trinidad Rico</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University Art Gallery, sponsored by <a href="https://ipch.yale.edu/" rel="noopener noreferrer" target="_blank" >Yale IPCH</a> | New Haven, CT | May 2019</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/silvia-federici/" rel="noopener noreferrer" target="_blank" >Globalization of Women’s Work</a>, Lecture by Silvia Federici</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | July 2018</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/imaging-a-middle-east/" rel="noopener noreferrer" target="_blank" >Imaging a "Middle East"</a>, Symposium</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | July 2017</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/middle-of-where-east-of-what/" rel="noopener noreferrer" target="_blank" >Middle of Where, East of What? New Geographies of Conflict</a>, Symposium</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | July 2017</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/out-of-work/" rel="noopener noreferrer" target="_blank" >Out of Work</a>, Discussion</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | June 2017</span>
+                        <span className='text'><a href="https://www.ici-berlin.org/events/in-front-of-the-factory/" rel="noopener noreferrer" target="_blank" >In Front of the Factory: Cinematic Spaces of Labour</a>, Conference + Film Screening</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin + ACUD Kino | Berlin, Germany | May 2016</span>
+                        <span className='text'>Urban Planning and Social Space, Panel</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Middle Eastern Studies Association | New Orleans, LA | 2013</span>
+                        <span className='text'>De-Canonizing Architectural History, Workshop</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Society of Architectural Historians | Detroit, MI | 2012</span>
+                        <br />
+
+                        <span className='cv-header'>Invited</span><br />
+                        <span className='text'>Invited Talk, <a href="https://www.ici-berlin.org/events/as-workers-leave-the-factory-whats-left-behind/" rel="noopener noreferrer" target="_blank">As Workers Leave the Factory, What's Left Behind?</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | 2018</span>
+                        <span className='text'>Invited Talk, <a href="https://macmillan.yale.edu/event/search-islamic-avant-garde" rel="noopener noreferrer" target="_blank">In Search of an Islamic Avante Garde</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale MacMillan Center | New Haven, CT | 2018</span>
+                        <span className='text'>Invited Talk, <a href="https://managingracialcapital.wordpress.com/" rel="noopener noreferrer" target="_blank">Managing Racial Capital</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Freie Universitat | Berlin, Germany | 2017</span>
+                        <span className='text'>Discussant, "Digital Heritage", <a href="http://www.carmah.berlin/otherwise-symposium/" rel="noopener noreferrer" target="_blank">CARMAH World Cafe on Museums and Heritage</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Humboldt Universitat | Berlin, Germany | 2017</span>
+                        <span className='text'>Invited Talk, "Mapping the City: The Right to Public Space", <a href="https://www.lahorebiennale.org/projects/city-in-context/" rel="noopener noreferrer" target="_blank">City in Context</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Goethe-Institut + Lahore Biennale Foundation | Karachi, Pakistan | 2016</span>
+                        <span className='text'>Invited Talk, <a href="https://www.birmingham.ac.uk/research/activity/ias/workshops/2016/global-middle-east-age-of-speed.aspx" rel="noopener noreferrer" target="_blank">The Global Middle East in the Age of Speed</a> </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>University of Birmingham, Institute for Advanced Studies | Birmingham, UK | 2016</span>
+                        <span className='text'>Discussant, "On Preservation", National Trust for Historic Preservation</span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Rockefeller Estate | Tarrytown, NY | 2015</span>
+                    </Grid.Column>
+                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+          
+          
           <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
           
               OTHER

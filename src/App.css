@@ -111,31 +111,35 @@ width: 100%;
 
 .github-color{
   color: lightgrey;
+  margin-right: 15px !important;
 }
-.github.big.circular.icon.Change:hover {
+.github.large.circular.icon.Change:hover {
   color: #333;
   background-color: lightgrey !important;
 }
 
 .twitter-color {
   color: lightgrey;
+  margin-right: 15px !important;
 }
-.twitter.big.circular.icon.Change:hover {
+.twitter.large.circular.icon.Change:hover {
   color: #1DA1F2;
   background-color: lightgrey !important;
 }
 
 .linkedin-color {
   color: lightgrey;
+  margin-right: 15px !important;
 }
-.linkedin.big.circular.icon.Change:hover {
+.linkedin.large.circular.icon.Change:hover {
   color: #0e76a8;
   background-color: lightgrey !important;
 }
 .mail-color {
   color: lightgrey;
+  margin-right: 15px !important;
 }
-.mail.big.circular.icon.Change:hover {
+.mail.large.circular.icon.Change:hover {
   color: #B23121;
   background-color: lightgrey !important;
 }
