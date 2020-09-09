@@ -9,11 +9,7 @@ export default class Trivia extends Component {
             <>
                 <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
-                    <Grid.Column>
-
-                    </Grid.Column>
-
-                    <Grid.Column style={{ textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
                         <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>TRIVIA</strong></div>
                         <Divider></Divider>
 
@@ -21,7 +17,7 @@ export default class Trivia extends Component {
                             <br />
                             <br />
                             <div style={{ textAlign: 'left' }}>
-                                + Built with Ruby on Rails and vanilla Javascript
+                    {/* + Built with Ruby on Rails and vanilla Javascript
                     <br />
                     + ActiveRecord for associations
                     <br />
@@ -29,14 +25,14 @@ export default class Trivia extends Component {
                     <br />
                     + Data seeded from a third party Trivia API
                     <br />
-                    + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface
+                    + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface */}
                     </div>
                         </div>
                     </Grid.Column>
                 </Grid>
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
-                    <Grid.Column style={{ width: '70%' }}>
+                    <Grid.Column style={{ width: '67%' }}>
 
                         <Embed
                             id='455662095'
@@ -45,15 +41,28 @@ export default class Trivia extends Component {
                         />
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '30%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '33%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
                             <br />
                             <br />
-                            <div style={{ fontWeight: '900' }}>Collaborator: Mert Ozkaynak
+                            <div style={{ fontWeight: '900' }}>
+                    + Built with Ruby on Rails and vanilla Javascript
                     <br />
-                    Year: June 2020</div>
+                    + ActiveRecord for associations
+                    <br />
+                    + SQLite for data persistence
+                    <br />
+                    + Data seeded from an external Trivia API
+                    <br />
+                    + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface
+                    <br />
+                    <br />
+                    Collaborator: Mert Ozkaynak
+                    <br />
+                    Built: May 2020</div>
                         </div>
+                        <br />
                     </Grid.Column>
 
                 </Grid>

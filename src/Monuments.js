@@ -9,27 +9,21 @@ export default class Monuments extends Component {
             <>
                 <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
-                    <Grid.Column>
-
-                    </Grid.Column>
-
-                    <Grid.Column style={{ textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>TRIVIA</strong></div>
+                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>MONUMENTS</strong></div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right' }}><i>Love sports? Geography? Star Wars? Test your knowledge and compete for a position on the trivia leaderboard!</i>
+                        <div style={{ textAlign: 'right' }}><i>Browse through and critically reflect on the current landscape of confederate monuments in the United States.</i>
                             <br />
                             <br />
                             <div style={{ textAlign: 'left' }}>
-                                + Built with Ruby on Rails and vanilla Javascript
+                                {/* + Utilized React, Mapbox GL, and Semantic UI for an efficient client-side experience with dynamic visualizations
                     <br />
-                    + ActiveRecord for associations
+                    + Developed Rails backend with API endpoints for fetch requests and PostgreSQL for data persistence
                     <br />
-                    + SQLite for data persistence
+                    + Adhered to RESTful conventions, applied MVC pattern, and built out core CRUD functionality
                     <br />
-                    + Data seeded from a third party Trivia API
-                    <br />
-                    + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface
+                    + Data seeded from csv file provided by the Southern Poverty Law Center's Whose Heritage Project */}
                     </div>
                         </div>
                     </Grid.Column>
@@ -50,10 +44,19 @@ export default class Monuments extends Component {
                             <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
                             <br />
                             <br />
-                            <div style={{ fontWeight: '900' }}>Collaborator: Mert Ozkaynak
+                            <div style={{ fontWeight: '900' }}>
+                    + Utilized React, Mapbox GL, and Semantic UI for an efficient client-side experience with dynamic visualizations
                     <br />
-                    Year: June 2020</div>
+                    + Developed Rails backend with API endpoints for fetch requests and PostgreSQL for data persistence
+                    <br />
+                    + Adhered to RESTful conventions, applied MVC pattern, and built out core CRUD functionality
+                    <br />
+                    + Data seeded from csv file provided by the Southern Poverty Law Center's Whose Heritage Project
+                    <br />
+                    <br />
+                    Built: July 2020</div>
                         </div>
+                        <br />
                     </Grid.Column>
 
                 </Grid>

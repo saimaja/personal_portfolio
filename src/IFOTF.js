@@ -54,6 +54,7 @@ export default class IFOTF extends Component {
                     <br />
                     Year: June 2020</div>
                         </div>
+                        <br />
                     </Grid.Column>
 
                 </Grid>

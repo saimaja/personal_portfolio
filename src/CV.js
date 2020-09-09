@@ -19,7 +19,7 @@ export default class CV extends Component {
                             computer science students and researchers to develop <i>Anqa</i>, an open access web platform documenting six cultural heritage sites in Damascus, Syria. 
                             Spearheaded workshops, research, design, and wireframing, with an emphasis on ethical preservation practices and storytelling from the ground up.
                             To learn more, click
-                            <a href='/projects/anqa'> here.</a></span>
+                            <a className='link' href='/projects/anqa'> here.</a></span>
                         <br />
                         <br />
                         <span className='cv-header'>Curator</span>
@@ -27,11 +27,11 @@ export default class CV extends Component {
                             Richard F. Brush Gallery, St. Lawrence University <br />
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> Canton, NY | Fall 2017</span>
                        
-                        <span>Co-curated <a href='https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban' rel="noopener noreferrer" target='_blank'>Multitudes: An Art Exhibit in the Age of the #muslimban</a>,
+                        <span>Co-curated <a className='link' href='https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban' rel="noopener noreferrer" target='_blank'>Multitudes: An Art Exhibit in the Age of the #muslimban</a>,
                             an exhibition aimed at transcending narrow representations of Muslims in popular culture.
                             The selected work reflects eight artists' cutting-edge and subversive commentaries
                             on contemporary society that also relate to their own complex identities. To learn more, or to view the artwork, click
-                            <a href='/projects/multitudes'> here.</a></span>
+                            <a className='link' href='/projects/multitudes'> here.</a></span>
                         <br />
                         <br />
                         <span className='cv-header'>Innovation Fellow</span>
@@ -40,8 +40,8 @@ export default class CV extends Component {
                         <br />
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> Oakland, CA | 2014</span>
                       
-                        <span> Conducted research based on design thinking for <a href='https://www.cell-ed.com/' rel="noopener noreferrer" target='_blank'>Cell-ED</a>, an English-as-a-Second-Language (ESL) educational 
-                            startup for adult learning. Wrote briefs and <a href='https://gobeefellows.wordpress.com/2014/08/04/an-education/' rel="noopener noreferrer" target='_blank'>literacy analyses </a> 
+                        <span> Conducted research based on design thinking for <a className='link' href='https://www.cell-ed.com/' rel="noopener noreferrer" target='_blank'>Cell-ED</a>, an English-as-a-Second-Language (ESL) educational 
+                            startup for adult learning. Wrote briefs and <a className='link' href='https://gobeefellows.wordpress.com/2014/08/04/an-education/' rel="noopener noreferrer" target='_blank'>literacy analyses </a> 
                             that focused on improving access to English learning for adults in upstate New York, and assisted in improving pedagogical design.</span>
 
 
@@ -93,13 +93,13 @@ export default class CV extends Component {
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
                     {/* <span className='cv-header'>Teaching + Invited Talks (Selected)</span><br /> */}
-                        <span className='text'>Invited Critic, <a href="https://www.architecture.yale.edu/courses/23781-advanced-design-studio" rel="noopener noreferrer" target="_blank">Myths of Permanent Cities</a> </span>
+                        <span className='text'>Invited Critic, <a className='link' href="https://www.architecture.yale.edu/courses/23781-advanced-design-studio" rel="noopener noreferrer" target="_blank">Myths of Permanent Cities</a> </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Advanced Design Studio | Spring 2019</span>
-                        <span className='text'>Invited Critic, <a href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>
+                        <span className='text'>Invited Critic, <a className='link' href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Graduate Studio-Seminar | Spring 2019</span>
-                        <span className='text'>Guest Lecturer, "Industrial Detroit", <a href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>
+                        <span className='text'>Guest Lecturer, "Industrial Detroit", <a className='link' href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Graduate Studio-Seminar | Spring 2018</span>
-                        <span className='text'>Curator's Lecture, "Orientalism and Art", <a href="https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban" rel="noopener noreferrer" target="_blank">Multitudes Exhibit Opening</a> </span>
+                        <span className='text'>Curator's Lecture, "Orientalism and Art", <a className='link' href="https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban" rel="noopener noreferrer" target="_blank">Multitudes Exhibit Opening</a> </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>St. Lawrence University | Canton, NY | Fall 2017</span>
                         <span className='text'>Instructor, Energy, Society, and Environmental Design</span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>UC - Berkeley, Department of Architecture | Spring 2014</span>
@@ -115,11 +115,11 @@ export default class CV extends Component {
                         CURATED PROJECTS
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
-                    <span className='text'><a href="https://www.ici-berlin.org/events/in-front-of-the-factory/" rel="noopener noreferrer" target="_blank" >In Front of the Factory</a> Collaborative Project</span>
+                    <span className='text'><a className='link' href="https://www.ici-berlin.org/events/in-front-of-the-factory/" rel="noopener noreferrer" target="_blank" >In Front of the Factory</a> Collaborative Project</span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>ICI Berlin | Berlin, Germany | 2016 - 2018</span>
                         <span className='text'>Industrial Heritage Walking Tour </span>
-                        <span className='cv-subheader' style={{paddingBottom: '10px'}}><a href="https://www.artidea.org/" rel="noopener noreferrer" target="_blank">International Festival of Arts and Ideas</a> | New Haven, CT | June 2018</span>
-                        <span className='text'><a href='https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban' rel="noopener noreferrer" target='_blank'>Multitudes: An Art Exhibit in the Age of the #muslimban</a></span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}><a className='link' href="https://www.artidea.org/" rel="noopener noreferrer" target="_blank">International Festival of Arts and Ideas</a> | New Haven, CT | June 2018</span>
+                        <span className='text'><a className='link' href='https://www.stlawu.edu/content/multitudes-art-exhibition-age-muslimban' rel="noopener noreferrer" target='_blank'>Multitudes: An Art Exhibit in the Age of the #muslimban</a></span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>St. Lawrence University | Canton, NY | Fall 2017</span>
                         <span className='text'>10 Mosques Bus Tour</span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> Detroit, MI | Summer 2012</span>

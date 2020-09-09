@@ -10,34 +10,41 @@ export default class Elicit extends Component {
             <>
                 <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
-                    <Grid.Column>
-
-                    </Grid.Column>
-
-                    <Grid.Column style={{ textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>TRIVIA</strong></div>
+                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>E-LICIT ART</strong></div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right' }}><i>Love sports? Geography? Star Wars? Test your knowledge and compete for a position on the trivia leaderboard!</i>
-                            <br />
-                            <br />
-                            <div style={{ textAlign: 'left' }}>
-                                + Built with Ruby on Rails and vanilla Javascript
+                        <div style={{ textAlign: 'right' }}><i>
+                        E-licit Art is a faux e-commerce platform meant to encourage users to think about the origins of art, its relationship to museums, and speculative valuations. 
+                How do elite institutions acquire artwork? How much of it ends up on <a className='link'
+                href= 'https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see' rel="noopener noreferrer" target='_blank'>
+                display or hidden in storage</a>? And how should we, as artistic consumers, think about their social and economic worth? 
+                <br />
+                <br />
+                In recent years, some European and North American museums have started to reconsider the history and provenance of
+                their Near Eastern and African collections, such as <a className='link' 
+                href= 'https://www.theatlantic.com/international/archive/2018/03/iraq-war-archeology-invasion/555200/' rel="noopener noreferrer" target='_blank'>archaeological artifacts from Iraq</a> or <a className='link' 
+                href= 'https://hyperallergic.com/456942/europol-seizure-of-looted-antiquities/' rel="noopener noreferrer" target='_blank'>looted antiquities</a>. 
+                With E-licit Art, we think it's important for museum-goers to imagine the behind-the-scenes <i>trading</i> and <i>acquisition</i> of artworks, which includes their complex histories, 
+                missing or lost verification information, and randomly assigned worth.
+                <br />
+                <br />
+                The data for E-licit Art comes from the <a className='link' 
+                href= 'https://www.harvardartmuseums.org/collections/api' rel="noopener noreferrer" target='_blank'>Harvard Art Museums API</a>.
+                            </i></div>
+                           
+                    </Grid.Column>
+                    <Grid.Column style={{ textAlign: 'left' }}>
+                    {/* + Designed frontend with React, Javascript, Semantic UI, Bootstrap, and custom CSS for a streamlined user experience
                     <br />
-                    + ActiveRecord for associations
+                    + Created a Rails backend to handle fetch requests to external Harvard Art Museums API
                     <br />
-                    + SQLite for data persistence
-                    <br />
-                    + Data seeded from a third party Trivia API
-                    <br />
-                    + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface
-                    </div>
-                        </div>
+                    + PostgreSQL for data persistence */}
                     </Grid.Column>
                 </Grid>
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
-                    <Grid.Column style={{ width: '70%' }}>
+                    <Grid.Column style={{ width: '67%' }}>
 
                         <Embed
                             id='455662095'
@@ -46,15 +53,25 @@ export default class Elicit extends Component {
                         />
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '30%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '33%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
+                            <a href='http://elicit-art.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>View Demo</a>
                             <br />
                             <br />
-                            <div style={{ fontWeight: '900' }}>Collaborator: Mert Ozkaynak
+                            <div style={{ fontWeight: '900' }}>
+                            + Designed frontend with React, Javascript, Semantic UI, Bootstrap, and custom CSS for a streamlined user experience
                     <br />
-                    Year: June 2020</div>
+                    + Created a Rails backend to handle fetch requests to external Harvard Art Museums API
+                    <br />
+                    + PostgreSQL for data persistence
+                    <br />
+                    <br />
+                                Collaborator: Abhinav Sharma
+                            <br />
+                                Built: June 2020</div>
                         </div>
+                        <br />
                     </Grid.Column>
 
                 </Grid>

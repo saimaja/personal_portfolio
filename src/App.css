@@ -107,6 +107,15 @@ width: 100%;
   line-height: 1;
 }
 
+.link:hover{
+  color: teal;
+  text-decoration: underline;
+}
+
+.link{
+  color: teal;
+}
+
 /* contact buttons  */
 .github-color{
   color: lightgrey;
@@ -153,7 +162,7 @@ width: 100%;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 2px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
@@ -161,6 +170,6 @@ width: 100%;
 
 
 .button:hover {
-  box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 9px 9px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   color: lightgrey;
 }
