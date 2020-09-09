@@ -28,10 +28,10 @@ export default class Research extends Component {
               PEER-REVIEWED PUBLICATIONS
        
           </Grid.Column>
-          <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
+          <Grid.Column style={{width: '60%'}}>
         
           <span className='text'><a className='link' href="https://www.diaphanes.com/titel/film-womens-work-labour-organizing-6580" rel="noopener noreferrer" target="_blank">Film, Women's Work, and Labour Organizing</a></span>
-          <span className='cv-subheader' style={{paddingBottom: '10px'}}>In <i>minor cosmopolitan</i>, edited by Zairong Xiang, 113-127. Berlin: Diaphanes Press, 2020.</span>
+          <div className='cv-subheader' style={{paddingBottom: '10px'}}>In <i>minor cosmopolitan</i>, edited by Zairong Xiang, 113-127. Berlin: Diaphanes Press, 2020.</div>
           
           <span className='text'><a className='link' href="http://www.harvarddesignmagazine.org/issues/46" rel="noopener noreferrer" target="_blank">Rereading Studs Terkel’s <i>Working</i> (1972)</a></span>
           <span className='cv-subheader' style={{paddingBottom: '10px'}}><i>Harvard Design Magazine</i>, Special Issue/No Sweat, no. 46 (F/W 2018): 107-112.</span>
@@ -68,7 +68,7 @@ export default class Research extends Component {
           <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         WORKSHOPS + TALKS
                     </Grid.Column>
-                    <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
+                    <Grid.Column style={{ width: '60%' }} className='text'>
                         <span className='cv-header'>Organized</span><br />
                         <span className='text'>Ethics and the Preservation of Cultural Heritage, Workshop</span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University Law School, sponsored by <a className='link' href="https://ipch.yale.edu/" rel="noopener noreferrer" target="_blank" >Yale IPCH</a> | New Haven, CT | May 2019</span>

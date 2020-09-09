@@ -55,8 +55,14 @@ export default class Elicit extends Component {
 
                     <Grid.Column style={{ width: '33%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
-                            <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
-                            <a href='http://elicit-art.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>View Demo</a>
+                            <div className='dropdown' >
+                                <div className='button'>View Code</div>
+                                <div className='dropdown-content'>
+                                    <a href='https://github.com/saimaja/e_commerce_frontend' rel="noopener noreferrer"  target='_blank'>Frontend</a>
+                                    <a href='https://github.com/saimaja/e_commerce_backend' rel="noopener noreferrer" target='_blank'>Backend</a>
+                                </div>
+                            </div>
+                            <a href='http://elicit-art.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>Live Demo</a>
                             <br />
                             <br />
                             <div style={{ fontWeight: '900' }}>

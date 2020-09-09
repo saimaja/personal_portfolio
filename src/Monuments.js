@@ -41,7 +41,14 @@ export default class Monuments extends Component {
 
                     <Grid.Column style={{ width: '30%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
-                            <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
+                        <div className='dropdown' >
+                                <div className='button'>View Code</div>
+                                <div className='dropdown-content'>
+                                    <a href='https://github.com/saimaja/mon_frontend' rel="noopener noreferrer"  target='_blank'>Frontend</a>
+                                    <a href='https://github.com/saimaja/mon_backend' rel="noopener noreferrer" target='_blank'>Backend</a>
+                                </div>
+                            </div>
+                            <a href='http://monumentz.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>Live Demo</a>
                             <br />
                             <br />
                             <div style={{ fontWeight: '900' }}>
