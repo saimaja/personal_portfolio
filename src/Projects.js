@@ -19,7 +19,7 @@ export default class Projects extends Component {
             <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
             
             <MDBRow>
-                
+
             <Grid.Column style={{width: '30%', paddingTop: '0', paddingBottom: '0'}} className='cv-caption-text'>
             DIGITAL
                 
@@ -76,11 +76,10 @@ export default class Projects extends Component {
               </MDBRow>
            
 
-              <MDBRow className="mt-5">
+              <MDBRow className="mt-4">
               <Grid.Column style={{width: '30%', paddingTop: '0', paddingBottom: '0'}} className='cv-caption-text'>
             CURATORIAL
-                
-         
+
             </Grid.Column>
           <Grid.Column style={{ width: '100%', paddingTop: '0' }}><Divider /></Grid.Column>
               

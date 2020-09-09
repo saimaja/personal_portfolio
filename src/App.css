@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,16 +35,11 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .image-component {
-  /* The image used */
-
-  /* Full height */ 
+ /* Full height */ 
 width: 100%;
- 
-   
-
   /* Center and scale the image nicely
   background-position: center;
   background-repeat: no-repeat;
@@ -69,6 +64,8 @@ width: 100%;
   letter-spacing: 3px;
 }
 
+/* nav bar */
+
 .nav-name-text {
     font-family: raleway;
     font-size: 20px;
@@ -87,6 +84,7 @@ width: 100%;
 
 }
 
+/* cv text */
 .text {
   font-family: raleway;
 }
@@ -109,6 +107,7 @@ width: 100%;
   line-height: 1;
 }
 
+/* contact buttons  */
 .github-color{
   color: lightgrey;
   margin-right: 15px !important;
@@ -142,4 +141,45 @@ width: 100%;
 .mail.large.circular.icon.Change:hover {
   color: #B23121;
   background-color: lightgrey !important;
+}
+
+/* button styling */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
