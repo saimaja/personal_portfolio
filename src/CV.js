@@ -5,7 +5,7 @@ export default class CV extends Component {
     render() {
         return (
             <div>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={3}>
+                <Grid style={{ paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px' }} stackable columns={3}>
                     <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
                         WORK EXPERIENCE
                     </Grid.Column>

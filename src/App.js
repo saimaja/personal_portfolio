@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 // import logo from './logo.svg';
 import Projects from './Projects';
 import About from './About';
@@ -14,29 +14,28 @@ import IFOTF from './IFOTF.js'
 import './App.css';
 import { NavLink, Switch, Route } from 'react-router-dom'
 import { Navbar, Nav} from 'react-bootstrap'
-// import { Grid, Image, Segment } from 'semantic-ui-react'
-// import pic from './images/saimaprofile.png'
 
 
 
-export default class App extends Component {
- 
 
-  render() {
+export default function App () {
+
+  const [expanded, setExpanded] = useState(false);
+    
     return (
       <div>
        
-        <Navbar sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} collapseOnSelect expand="lg">
-          <Navbar.Brand as={NavLink} to="/" className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '35px' }} expand="md">
+          <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-              <Nav.Link as={NavLink} to='/about' activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
-              <Nav.Link as={NavLink} to='/cv' activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
-              <Nav.Link as={NavLink} to="/research" activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
-              <Nav.Link as={NavLink} to="/projects" activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
+              <Nav.Link as={NavLink} to='/about' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
+              <Nav.Link as={NavLink} to='/cv' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
+              <Nav.Link as={NavLink} to="/research" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
+              <Nav.Link as={NavLink} to="/projects" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
               {/* <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
@@ -85,11 +84,7 @@ export default class App extends Component {
       
       </div>
 
-
-
-
-
     )
-  }
+  
 }
 

@@ -10,27 +10,16 @@ export default class About extends Component {
             <div>
           <img className='image-component' src={pic} alt={pic} />
         </div>
-        <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
+        <Grid style={{paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px'}} stackable columns={2}>
     
           <Grid.Column className='text'>
-          {/* <Grid.Column style={{width: '10%'}}> */}
          <span style={{marginLeft: '5px'}}> Say hello!</span>
           <br />
           <br />
                 <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='large' /></a>
-                {/* </Grid.Column> */}
-
-                {/* <Grid.Column style={{width: '10%'}}> */}
                 <a href="https://www.linkedin.com/in/saimaakhtar/" target="_blank" rel="noopener noreferrer" ><Icon className='linkedin-color Change' circular name='linkedin' size='large'/></a>
-                {/* </Grid.Column> */}
-                
-                {/* <Grid.Column style={{width: '10%'}}> */}
                 <a href="https://github.com/saimaja" target="_blank" rel="noopener noreferrer"><Icon className='github-color Change' circular name='github' size='large'/></a>
-                {/* </Grid.Column> */}
-
-                {/* <Grid.Column style={{width: '10%'}}> */}
                 <a href="https://www.twitter.com/saimajakhtar" target="_blank" rel="noopener noreferrer"><Icon className='twitter-color Change' circular name='twitter'size='large' /></a>
-                {/* </Grid.Column> */}
               
           </Grid.Column>
           <Grid.Column style={{textAlign: 'justify'}} className='text'>
