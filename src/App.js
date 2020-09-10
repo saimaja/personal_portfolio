@@ -26,16 +26,16 @@ export default function App () {
       <div>
        
         <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '35px' }} expand="md">
-          <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-              <Nav.Link as={NavLink} to='/about' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
-              <Nav.Link as={NavLink} to='/cv' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
-              <Nav.Link as={NavLink} to="/research" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
-              <Nav.Link as={NavLink} to="/projects" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
+              <Nav.Link as={NavLink} to='/about' onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
+              <Nav.Link as={NavLink} to='/cv' onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
+              <Nav.Link as={NavLink} to="/research" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
+              <Nav.Link as={NavLink} to="/projects" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
               {/* <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
