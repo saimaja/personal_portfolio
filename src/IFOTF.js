@@ -7,7 +7,7 @@ export default class IFOTF extends Component {
     render() {
         return (
             <>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px' }} stackable columns={2}>
+                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
                     <Grid.Column>
 
@@ -35,7 +35,7 @@ export default class IFOTF extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid style={{ paddingLeft: '60px', paddingRight: '60px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
 
                         <Embed

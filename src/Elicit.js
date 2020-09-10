@@ -8,7 +8,7 @@ export default class Elicit extends Component {
     render() {
         return (
             <>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px' }} stackable columns={2}>
+                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
                     <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
                         <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>E-LICIT ART</strong></div>
@@ -43,7 +43,7 @@ export default class Elicit extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid style={{ paddingLeft: '60px', paddingRight: '60px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '67%' }}>
 
                         <Embed

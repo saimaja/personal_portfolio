@@ -25,7 +25,7 @@ export default function App () {
     return (
       <div>
        
-        <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '35px' }} expand="md">
+        <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} expand="lg">
           <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
           <Navbar.Collapse id="responsive-navbar-nav">

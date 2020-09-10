@@ -16,7 +16,7 @@ export default class Projects extends Component {
            
 
              <MDBContainer className="mt-4">
-            <Grid style={{paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px'}} stackable columns={2}>
+            <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
             
             <MDBRow>
 

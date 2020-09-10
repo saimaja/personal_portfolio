@@ -10,7 +10,7 @@ export default class About extends Component {
             <div>
           <img className='image-component' src={pic} alt={pic} />
         </div>
-        <Grid style={{paddingTop: '35px', paddingLeft: '60px', paddingRight: '60px'}} stackable columns={2}>
+        <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
     
           <Grid.Column className='text'>
          <span style={{marginLeft: '5px'}}> Say hello!</span>
