@@ -84,12 +84,12 @@ export default function App () {
           </Switch>
           <br />
           <br />
-        <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec', display: 'flex', minHeight: '100vh' }} stackable columns={2} >
+        <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec', display: 'flex'}} stackable columns={2} >
           <Grid.Column  className='text-footer' style={{paddingTop: '30px'}}>
-          © Copyright. All Rights Reserved.
+          Copyright © {new Date().getFullYear()}. All Rights Reserved.
           </Grid.Column>
           <Grid.Column  >
-          <span style={{float: 'right'}}>
+          <span style={{float: 'right'}} className='text-footer'>
                 <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='large' /></a>
                 <a href="https://www.linkedin.com/in/saimaakhtar/" target="_blank" rel="noopener noreferrer" ><Icon className='linkedin-color Change' circular name='linkedin' size='large'/></a>
                 <a href="https://github.com/saimaja" target="_blank" rel="noopener noreferrer"><Icon className='github-color Change' circular name='github' size='large'/></a>
