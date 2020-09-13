@@ -11,9 +11,10 @@ import Anqa from './Anqa.js'
 import Multitudes from './Multitudes.js'
 import Monuments from './Monuments.js'
 import IFOTF from './IFOTF.js'
-import './App.css';
 import { NavLink, Switch, Route } from 'react-router-dom'
 import { Navbar, Nav} from 'react-bootstrap'
+import { Grid, Icon } from 'semantic-ui-react'
+import './App.css';
 
 
 
@@ -26,16 +27,16 @@ export default function App () {
       <div>
        
         <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} expand="lg">
-          <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-              <Nav.Link as={NavLink} to='/about' onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
-              <Nav.Link as={NavLink} to='/cv' onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
-              <Nav.Link as={NavLink} to="/research" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
-              <Nav.Link as={NavLink} to="/projects" onClick={() => setTimeout(() => {setExpanded(false)}, 275)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
+              <Nav.Link as={NavLink} to='/about' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
+              <Nav.Link as={NavLink} to='/cv' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
+              <Nav.Link as={NavLink} to="/research" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
+              <Nav.Link as={NavLink} to="/projects" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
               {/* <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
@@ -81,7 +82,23 @@ export default function App () {
 
 
           </Switch>
-      
+          <br />
+          <br />
+        <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec', display: 'flex', minHeight: '100vh' }} stackable columns={2} >
+          <Grid.Column  className='text-footer' style={{paddingTop: '30px'}}>
+          © Copyright. All Rights Reserved.
+          </Grid.Column>
+          <Grid.Column  >
+          <span style={{float: 'right'}}>
+                <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='large' /></a>
+                <a href="https://www.linkedin.com/in/saimaakhtar/" target="_blank" rel="noopener noreferrer" ><Icon className='linkedin-color Change' circular name='linkedin' size='large'/></a>
+                <a href="https://github.com/saimaja" target="_blank" rel="noopener noreferrer"><Icon className='github-color Change' circular name='github' size='large'/></a>
+                <a href="https://www.twitter.com/saimajakhtar" target="_blank" rel="noopener noreferrer"><Icon className='twitter-color Change' circular name='twitter'size='large' /></a>
+          </span>
+        </Grid.Column>
+
+        
+        </Grid> 
       </div>
 
     )

@@ -84,6 +84,11 @@ width: 100%;
 
 }
 
+.text-footer {
+  font-family: raleway;
+  font-size: 12px;
+}
+
 /* cv text */
 .text {
   font-family: raleway;
