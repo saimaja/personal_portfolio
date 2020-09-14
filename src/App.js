@@ -13,7 +13,7 @@ import Monuments from './Monuments.js'
 import IFOTF from './IFOTF.js'
 import { NavLink, Switch, Route } from 'react-router-dom'
 import { Navbar, Nav} from 'react-bootstrap'
-import { Grid, Icon } from 'semantic-ui-react'
+import { Divider, Grid, Icon } from 'semantic-ui-react'
 import './App.css';
 
 
@@ -84,12 +84,14 @@ export default function App () {
           </Switch>
           <br />
           <br />
-        <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec', display: 'flex'}} stackable columns={2} >
+        <Divider></Divider>
+        <Grid style={{ paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2} >
           <Grid.Column  className='text-footer' style={{paddingTop: '30px'}}>
-          Copyright © {new Date().getFullYear()}. All Rights Reserved.
+          <span style={{float: 'left'}} >Copyright © {new Date().getFullYear()}. All Rights Reserved.</span>
           </Grid.Column>
-          <Grid.Column  >
-          <span style={{float: 'right'}} className='text-footer'>
+          <Grid.Column >
+        
+          <span style={{float: 'right'}} >
                 <a href="mailto:saimaakhtar@gmail.com"><Icon className='mail-color Change' circular name='mail'size='large' /></a>
                 <a href="https://www.linkedin.com/in/saimaakhtar/" target="_blank" rel="noopener noreferrer" ><Icon className='linkedin-color Change' circular name='linkedin' size='large'/></a>
                 <a href="https://github.com/saimaja" target="_blank" rel="noopener noreferrer"><Icon className='github-color Change' circular name='github' size='large'/></a>
