@@ -54,6 +54,23 @@ export default class Research extends Component {
 
           <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
           
+              REVIEWS
+       
+          </Grid.Column>
+          <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
+
+        {/* <span className='text'>Profile: <a href="http://bit.ly/2C50CjG" rel="noopener noreferrer" target="_blank">Art as a way to resist negative images and Islamophobia</a></span> */}
+        {/* <span className='cv-subheader' style={{paddingBottom: '10px'}}>by Todd Moe | <i>NCPR</i>, Nov 1 2017</span> */}
+
+        <span className='text'>Film Review: <a className='link' href="https://www.jstor.org/stable/10.2979/jims.1.2.10" rel="noopener noreferrer" target="_blank">Field of Vision: Homeland is Not a Series</a></span>
+          <span className='cv-subheader' style={{paddingBottom: '10px'}}><i>Journal of Islamic and Muslim Studies</i> 1.2 (2016): 98-101.</span>
+      
+        </Grid.Column>
+        <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
+
+          <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
+          
               ONLINE PUBLICATIONS
        
           </Grid.Column>
@@ -105,24 +122,8 @@ export default class Research extends Component {
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>University of Birmingham, Institute for Advanced Studies | Birmingham, UK | 2016</span>
                         <span className='text'>Discussant, "On Preservation", National Trust for Historic Preservation</span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Rockefeller Estate | Tarrytown, NY | 2015</span>
-                    </Grid.Column>
-                    <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+                    </Grid.Column>          
           
-          
-          <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
-          
-              OTHER
-       
-          </Grid.Column>
-          <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
-
-        {/* <span className='text'>Profile: <a href="http://bit.ly/2C50CjG" rel="noopener noreferrer" target="_blank">Art as a way to resist negative images and Islamophobia</a></span> */}
-        {/* <span className='cv-subheader' style={{paddingBottom: '10px'}}>by Todd Moe | <i>NCPR</i>, Nov 1 2017</span> */}
-
-        <span className='text'>Review: <a className='link' href="https://www.jstor.org/stable/10.2979/jims.1.2.10" rel="noopener noreferrer" target="_blank">Field of Vision: Homeland is Not a Series</a></span>
-          <span className='cv-subheader' style={{paddingBottom: '10px'}}><i>Journal of Islamic and Muslim Studies</i> 1.2 (2016): 98-101.</span>
-      
-        </Grid.Column>
         </Grid>
         </div>
         )
