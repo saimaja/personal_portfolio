@@ -17,15 +17,6 @@ export default class Trivia extends Component {
                             <br />
                             <br />
                             <div style={{ textAlign: 'left' }}>
-                    {/* + Built with Ruby on Rails and vanilla Javascript
-                    <br />
-                    + ActiveRecord for associations
-                    <br />
-                    + SQLite for data persistence
-                    <br />
-                    + Data seeded from a third party Trivia API
-                    <br />
-                    + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface */}
                     </div>
                         </div>
                     </Grid.Column>

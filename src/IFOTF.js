@@ -50,9 +50,9 @@ export default class IFOTF extends Component {
                             <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
                             <br />
                             <br />
-                            <div style={{ fontWeight: '900' }}>Collaborator: Mert Ozkaynak
+                            <div style={{ fontWeight: '900' }}>Collaborators: Rosa Barotsi and Clio Nicastro
                     <br />
-                    Year: June 2020</div>
+                    Years: June 2020</div>
                         </div>
                         <br />
                     </Grid.Column>
