@@ -34,6 +34,15 @@ export default class CV extends Component {
                             <a className='link' href='/projects/multitudes'> here.</a></div>
                         <br />
                         <br />
+                        <span className='cv-header'>Instructor</span>
+                        <br />
+                            University of California - Berkeley
+                        <br />
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}> Berkeley, CA | 2008-2014</span>
+                      
+                        <div style={{textAlign: 'justify'}}>Taught upper- and lower-level undergraduate courses in the fields of architecture + urbanism, design, geography, and American studies.</div>
+                        <br />
+                        <br />
                         <span className='cv-header'>Innovation Fellow</span>
                         <br />
                             Gobee Group 

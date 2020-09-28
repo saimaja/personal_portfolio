@@ -58,7 +58,7 @@ export default class Monuments extends Component {
                     <br />
                     + Adhered to RESTful conventions, applied MVC pattern, and built out core CRUD functionality
                     <br />
-                    + Data seeded from csv file provided by the Southern Poverty Law Center's Whose Heritage Project
+                    + Data seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' rel="noopener noreferrer" target='_blank'>Whose Heritage Project</a>
                     <br />
                     <br />
                     Built: July 2020</div>
