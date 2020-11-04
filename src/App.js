@@ -87,7 +87,7 @@ export default function App () {
         <Divider></Divider>
         <Grid style={{ paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2} >
           <Grid.Column  className='text-footer' style={{paddingTop: '30px'}}>
-          <span style={{float: 'left'}} >Copyright © {new Date().getFullYear()}. All Rights Reserved.</span>
+          <span style={{float: 'left'}} >Copyright © {new Date().getFullYear()}. Hand-coded with care by Saima Akhtar. All Rights Reserved.</span>
           </Grid.Column>
           <Grid.Column >
         
