@@ -88,7 +88,7 @@ export default class CV extends Component {
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
                         <span className='cv-header'>Technical</span><br />
-                            Ruby, Ruby on Rails, SQL, JavaScript, React, HTML, CSS, Git, Semantic, Bootstrap, Adobe Creative Suite, AutoCAD, ArcGIS, Revit
+                            Ruby, Ruby on Rails, SQL, JavaScript, React, HTML, CSS, Git, Semantic, Bootstrap, Adobe Creative Suite, Adobe XD, AutoCAD, Tableau, ArcGIS, Revit
                         <br />
 
                         <span className='cv-header'>Languages</span><br />
@@ -102,6 +102,8 @@ export default class CV extends Component {
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%'}} >
                     {/* <span className='cv-header'>Teaching + Invited Talks (Selected)</span><br /> */}
+                        <span className='cv-caption-text'>Invited Critic, Shadow Archives 1 & 2 </span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}>Rhode Island School of Design, Department of Interior Architecture | Advanced Design Studio | Spring + Fall 2020</span>
                         <span className='cv-caption-text'>Invited Critic, <a className='link' href="https://www.architecture.yale.edu/courses/23781-advanced-design-studio" rel="noopener noreferrer" target="_blank">Myths of Permanent Cities</a> </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Yale University, Department of Architecture | Advanced Design Studio | Spring 2019</span>
                         <span className='cv-caption-text'>Invited Critic, <a className='link' href="https://www.architecture.yale.edu/courses/24550-ghost-towns" rel="noopener noreferrer" target="_blank">Ghost Towns</a> </span>

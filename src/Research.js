@@ -16,9 +16,10 @@ export default class Research extends Component {
        
           </Grid.Column>
           <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
+            Broadly, I'm interested in cities, technology, and society. More specifically, I've written and talked about immigration and labor history in my hometown of Detroit, 
+            cultural heritage preservation in the U.S. and Middle East, and on the intersection of art/architecture and technology.
         
-            I write about architecture, cities, labor + immigration, technology, cultural heritage, and preservation.
-            {/* I am a full stack developer with a passion for human-oriented design and research. */}
+            {/* I write about architecture, cities, labor + immigration, technology, cultural heritage, and preservation. */}
         
           </Grid.Column>
           <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
