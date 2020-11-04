@@ -12,7 +12,7 @@ export default class About extends Component {
         </div>
         <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
     
-          <Grid.Column className='text'>
+          <Grid.Column style={{width: '40%'}} className='text'>
          {/* <span style={{marginLeft: '5px'}}> Say hello!</span>
           <br />
           <br />
@@ -22,9 +22,10 @@ export default class About extends Component {
                 <a href="https://www.twitter.com/saimajakhtar" target="_blank" rel="noopener noreferrer"><Icon className='twitter-color Change' circular name='twitter'size='large' /></a>
                */}
           </Grid.Column>
-          <Grid.Column style={{textAlign: 'justify'}} className='text'>
-          Full Stack Developer with a passion for human-oriented design. As a trained architect and urban historian, the questions that drive me are at the intersection of technology and design -- whether I’m building user-friendly applications with Rails, 
-          React, and Javascript, or thinking about the ethical implications of integrating technology into our everyday lives. I bring strong skills in creative problem solving, project management, and critical thinking to help businesses build better, more socially-minded technology.
+          <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
+          I'm an interdisciplinary designer with a background in architecture and urban studies. As a trained social scientist and programmer, 
+          the questions that drive me are at the intersection of technology and design -- whether I’m building user-friendly applications or writing 
+          about the ethical implications of integrating technology into our everyday lives. I love creative problem solving
           </Grid.Column>
         </Grid>
         </div>
