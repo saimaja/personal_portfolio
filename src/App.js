@@ -26,7 +26,7 @@ export default function App () {
     return (
       <div>
        
-        <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '35px' }} expand="lg">
+        <Navbar expanded={expanded} sticky='top' style={{ backgroundColor: '#ffffff', paddingTop: '25px', paddingLeft: '70px', paddingRight: '70px', paddingBottom: '25px' }} expand="lg">
           <Navbar.Brand as={NavLink} to="/" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} className='nav-name-text Change' >SAIMA AKHTAR</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -86,7 +86,7 @@ export default function App () {
           <br />
         <Divider></Divider>
         <Grid style={{ paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2} >
-          <Grid.Column  className='text-footer' style={{paddingTop: '30px'}}>
+          <Grid.Column  className='text-footer' style={{paddingTop: '20px'}}>
           <span style={{float: 'left'}} >Copyright © {new Date().getFullYear()}. Hand-coded with care by Saima Akhtar. All Rights Reserved.</span>
           </Grid.Column>
           <Grid.Column >

@@ -43,7 +43,7 @@ export default class CV extends Component {
                         <div style={{textAlign: 'justify'}}>Taught upper- and lower-level undergraduate courses in the fields of architecture + urbanism, design, geography, and American studies.</div>
                         <br />
                         <br />
-                        <span className='cv-header'>Innovation Fellow</span>
+                        <span className='cv-header'>Design Fellow</span>
                         <br />
                             Gobee Group 
                         <br />
