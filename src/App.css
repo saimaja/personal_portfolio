@@ -126,7 +126,7 @@ width: 100%;
   color: lightgrey;
   margin-right: 5px !important;
 }
-.github.large.circular.icon.Change:hover {
+.github.x-small.circular.icon.Change:hover {
   color: #333;
   background-color: #ffffff !important;
 }
@@ -135,7 +135,7 @@ width: 100%;
   color: lightgrey;
   margin-right: 5px !important;
 }
-.twitter.large.circular.icon.Change:hover {
+.twitter.x-small.circular.icon.Change:hover {
   color: #1DA1F2;
   background-color: #ffffff !important;
 }
@@ -144,7 +144,7 @@ width: 100%;
   color: lightgrey;
   margin-right: 5px !important;
 }
-.linkedin.large.circular.icon.Change:hover {
+.linkedin.x-small.circular.icon.Change:hover {
   color: #0e76a8;
   background-color: #ffffff !important;
 }
@@ -152,7 +152,7 @@ width: 100%;
   color: lightgrey;
   margin-right: 5px !important;
 }
-.mail.large.circular.icon.Change:hover {
+.mail.x-small.circular.icon.Change:hover {
   color: #B23121;
   background-color: #ffffff !important;
 }
