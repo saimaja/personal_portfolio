@@ -98,8 +98,6 @@ export default function App () {
                 <a href="https://www.twitter.com/saimajakhtar" target="_blank" rel="noopener noreferrer"><Icon className='twitter-color Change' circular name='twitter' size='x-small' /></a>
           </span>
         </Grid.Column>
-
-        
         </Grid> 
       </div>
 
