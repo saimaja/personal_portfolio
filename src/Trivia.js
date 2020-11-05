@@ -7,17 +7,15 @@ export default class Trivia extends Component {
     render() {
         return (
             <>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
+                <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px' }} >
 
-                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>TRIVIA</strong></div>
+                    <Grid.Column className='text'>
+                        <div style={{ textAlign: 'left' }} className='cv-caption-text'>TRIVIA</div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right' }}><i>Love sports? Geography? Star Wars? Test your knowledge and compete for a position on the trivia leaderboard!</i>
-                            <br />
-                            <br />
-                            <div style={{ textAlign: 'left' }}>
-                    </div>
+                        <div style={{ textAlign: 'justify', fontWeight: '900', width: '75%' }}>
+                        <i>Love sports? Geography? Star Wars? Test your knowledge and compete for a position on the trivia leaderboard!</i>
+                          <Divider></Divider>
                         </div>
                     </Grid.Column>
                 </Grid>

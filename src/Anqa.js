@@ -8,30 +8,38 @@ export default class Anqa extends Component {
     render() {
         return (
             <>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
+                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px'}} >
 
-                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>PROJECT ANQA</strong></div>
+                    <Grid.Column className='text'>
+                        <div style={{ textAlign: 'right'}} className='cv-caption-text'>PROJECT ANQA</div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right', fontWeight: '900' }}><i>
+                        <div style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}><i>
                         Project Anqa, conceived while at Yale University, envisions a way to counter the loss of cultural heritage sites that is not limited to digitizing buildings. It takes into account the meaningful interpretation of sites with respect to their historical context and intangible values.
-                        This necessitates new ways of thinking, which go a step beyond simple digitization.</i>
-                            <br /> <br />
-                            </div>
-                            <div style={{ textAlign: 'justify'}}>
+                        This necessitates new ways of thinking, going a step beyond simple digitization.</i>
+                        <Divider></Divider>
+                        </div>
+                        
+                        </Grid.Column> 
+                </Grid>
+                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px'}} >
+
+                <Grid.Column className='text' style={{ textAlign: 'justify'}}>
+                         
                                 The practice of digitizing 'at-risk' cultural heritage is gaining ground among conservation scientists and scholars of architecture, archaeology, computer science and related fields.
                                 The location of such sites in areas of intense conflict has triggered the appearance of a number of (primarily U.S. and European-based) emergency funds and institutional projects aimed at documenting cultural heritage for the purposes of preservation and posterity.
                                 The digital recording of sites alone, however, amounts to what some would call neo-colonialist attempts at gathering, collecting, and showcasing data for the sake of institutional prestige rather than for the betterment of the societies and cities in which the sites are located.
-                        <br /><br />
-
+                           
+                                </Grid.Column> 
+                       <Grid.Column className='text' style={{ textAlign: 'justify'}}>
+                      
                         Through a collaborative and interdisciplinary process with teams 'on the ground', Anqa collects and processes data, historically contextualizes it, and makes information accessible for researchers and the general public through state-of-the-art tools, including photogrammetry and laser scanning.
                         It serves as a model for an educational web platform or app that can inform viewers about cultural heritage through ethnographic research and digital storytelling.
-                        <br /><br />
-                        </div>
+                      
+                      
                        
                     </Grid.Column>
-                </Grid>
+                    </Grid>
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>

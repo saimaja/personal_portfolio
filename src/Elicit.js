@@ -8,20 +8,24 @@ export default class Elicit extends Component {
     render() {
         return (
             <>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
+                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px' }} >
 
-                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>E-LICIT ART</strong></div>
+                    <Grid.Column className='text' >
+                        <div style={{ textAlign: 'left' }} className='cv-caption-text'>E-LICIT ART</div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right' }}><i>
+                        <div style={{ textAlign: 'justify', width: '75%', fontWeight:'900' }}><i>
                         E-licit Art is a faux e-commerce platform meant to encourage users to think about the origins of art, its relationship to museums, and speculative valuations. 
                 How do elite institutions acquire artwork? How much of it ends up on <a className='link'
                 href= 'https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see' rel="noopener noreferrer" target='_blank'>
-                display or hidden in storage</a>? And how should we, as artistic consumers, think about their social and economic worth? 
-                <br />
-                <br />
-                In recent years, some European and North American museums have started to reconsider the history and provenance of
+                display or hidden in storage</a>? And how should we, as artistic consumers, think about their social and economic worth? </i>
+                <Divider></Divider>
+                </div>
+                           
+                    </Grid.Column>
+                    <Grid.Column className='text' >
+                    <div style={{ textAlign: 'justify', paddingTop: '35px' }}>
+                    In recent years, some European and North American museums have started to reconsider the history and provenance of
                 their Near Eastern and African collections, such as <a className='link' 
                 href= 'https://www.theatlantic.com/international/archive/2018/03/iraq-war-archeology-invasion/555200/' rel="noopener noreferrer" target='_blank'>archaeological artifacts from Iraq</a> or <a className='link' 
                 href= 'https://hyperallergic.com/456942/europol-seizure-of-looted-antiquities/' rel="noopener noreferrer" target='_blank'>looted antiquities</a>. 
@@ -31,10 +35,7 @@ export default class Elicit extends Component {
                 <br />
                 The data for E-licit Art comes from the <a className='link' 
                 href= 'https://www.harvardartmuseums.org/collections/api' rel="noopener noreferrer" target='_blank'>Harvard Art Museums API</a>.
-                            </i></div>
-                           
-                    </Grid.Column>
-                    <Grid.Column style={{ textAlign: 'left' }}>
+                    </div>
                     </Grid.Column>
                 </Grid>
 

@@ -8,22 +8,27 @@ export default class Monuments extends Component {
     render() {
         return (
             <>
-                <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
+                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px'}} >
 
-                    <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>MONUMENTS</strong></div>
+                    <Grid.Column className='text'>
+                        <div style={{ textAlign: 'left' }} className='cv-caption-text'>MONUMENTS</div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right' }}><i>A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
-                               The data comes from the Southern Poverty Law Center's <a href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' target='_blank' rel="noopener noreferrer" >Whose Heritage Project</a>, which
+                        <div style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}>
+                        <i>A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
+                               The data comes from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' target='_blank' rel="noopener noreferrer" >Whose Heritage Project</a>, which
                                is vetted and updated on a daily basis.</i>
-                            <br />
-                            <br />
-                            <div style={{ textAlign: 'left' }}>
-                            </div>
+                               <Divider></Divider>
                         </div>
                     </Grid.Column>
+                    <Grid.Column className='text' style={{ textAlign: 'justify', paddingTop: '50px' }}>
+                            ajfdkljasdkfljsdkfjkalsd;fjkdslfjkaslfj. djklfjkalfj dklsfj.jfklajfklds;fdjlsdkfdjfskl.jkdl;afjkdls;fjkdslfjkaslfjkdlfjkl.
+                            jdsklf;jkslfj.j kdlsjfklsd;jfkal;jf. djklafjdksl;;.
+                    </Grid.Column>
                 </Grid>
+                
+                
+
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
