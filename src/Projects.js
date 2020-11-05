@@ -12,94 +12,94 @@ import bimaristan from './images/bimaristan.png'
 import './App.css'
 
 export default class Projects extends Component {
-    render() {
-        return (
-           
+  render() {
+    return (
 
-             <MDBContainer className="mt-4">
-            <Grid style={{paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} stackable columns={2}>
-            
-            <MDBRow>
 
-            <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
-            DIGITAL
+      <MDBContainer className="mt-4">
+        <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
+
+          <MDBRow>
+
+            <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
+              DIGITAL
             </Grid.Column>
-          <Grid.Column style={{ width: '100%'}}><Divider /></Grid.Column>
+            <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
 
-            <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
-                <Link to={'/projects/monuments'}>
+            <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
+              <Link to={'/projects/monuments'}>
                 <MDBView hover zoom>
                   <img
                     src={monuments_img}
                     className="img-fluid"
                     alt="" />
-                  <MDBMask className="flex-center" 
-                   overlay = 'teal-strong'>
+                  <MDBMask className="flex-center"
+                    overlay='teal-strong'>
                     <p className="project-text">MONUMENTS</p>
                   </MDBMask>
                 </MDBView>
-                </Link>
-              </MDBCol>
+              </Link>
+            </MDBCol>
 
-            
-          <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
-          <Link to={'/projects/elicit'}>
-            <MDBView hover zoom>
-              <img
-                src={elicit_img}
-                className="img-fluid"
-                alt=""
-              />
-              <MDBMask className="flex-center"
-              overlay = 'teal-strong'>
-                <p className="project-text">E-LICIT ART</p>
-              </MDBMask>
-            </MDBView>
-            </Link>
-          </MDBCol>
 
-          <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
-          <Link to={'/projects/trivia'}>
+            <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
+              <Link to={'/projects/elicit'}>
+                <MDBView hover zoom>
+                  <img
+                    src={elicit_img}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <MDBMask className="flex-center"
+                    overlay='teal-strong'>
+                    <p className="project-text">E-LICIT ART</p>
+                  </MDBMask>
+                </MDBView>
+              </Link>
+            </MDBCol>
+
+            <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
+              <Link to={'/projects/trivia'}>
                 <MDBView hover zoom>
                   <img
                     src={trivia_img}
                     className="img-fluid"
                     alt="" />
                   <MDBMask className="flex-center"
-                   overlay = 'teal-strong' >
+                    overlay='teal-strong' >
                     <p className="project-text">TRIVIA</p>
                   </MDBMask>
                 </MDBView>
-                </Link>
-              </MDBCol>
-              
-              <MDBCol md="4" style={{paddingTop: '10px'}}>
-          <Link to={'/projects/anqa'}>
+              </Link>
+            </MDBCol>
+
+            <MDBCol md="4" style={{ paddingTop: '10px' }}>
+              <Link to={'/projects/anqa'}>
                 <MDBView hover zoom>
                   <img
                     src={bimaristan}
                     className="img-fluid"
                     alt="" />
                   <MDBMask className="flex-center"
-                   overlay = 'teal-strong' >
+                    overlay='teal-strong' >
                     <p className="project-text">ANQA</p>
                   </MDBMask>
                 </MDBView>
-                </Link>
-                
-              </MDBCol>
-              </MDBRow>
+              </Link>
 
-           
+            </MDBCol>
+          </MDBRow>
 
-              <MDBRow className="mt-4">
-              <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
-            CURATORIAL
+
+
+          <MDBRow className="mt-4">
+            <Grid.Column style={{ width: '30%' }} className='cv-caption-text'>
+              CURATORIAL
 
             </Grid.Column>
-          <Grid.Column style={{ width: '100%'}}><Divider /></Grid.Column>
-              
-              <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
+            <Grid.Column style={{ width: '100%' }}><Divider /></Grid.Column>
+
+            <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
               <Link to={'/projects/multitudes'}>
                 <MDBView hover zoom>
                   <img
@@ -107,14 +107,14 @@ export default class Projects extends Component {
                     className="img-fluid"
                     alt="" />
                   <MDBMask className="flex-center"
-                   overlay = 'teal-strong' >
+                    overlay='teal-strong' >
                     <p className="project-text">MULTITUDES</p>
                   </MDBMask>
                 </MDBView>
-                </Link>
-              </MDBCol>
+              </Link>
+            </MDBCol>
 
-              <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
+            <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
               <Link to={'/projects/ifotf'}>
                 <MDBView hover zoom>
                   <img
@@ -122,56 +122,56 @@ export default class Projects extends Component {
                     className="img-fluid"
                     alt="" />
                   <MDBMask className="flex-center"
-                   overlay = 'teal-strong' >
+                    overlay='teal-strong' >
                     <p className="project-text">IN FRONT OF THE FACTORY</p>
                   </MDBMask>
                 </MDBView>
-                </Link>
-              </MDBCol>
-        </MDBRow> 
-        </Grid> 
-      </MDBContainer> 
-      
-    
-  
- 
-      
-            // <div>
-            //     <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={4}>
-            //     <MDBView hover>
-            //   <img src={monuments}
-            //     className="img-fluid"
-            //     alt=""/>
-            //   <MDBMask className="flex-center" overlayteal-strong">
-            //     <p className="project-text">Strong overlay</p>
-            //   </MDBMask>
-            //   </MDBView>
-                    /* <Grid.Column className='Change'>
-                        {/* <Reveal animated='fade'>
-                            <Reveal.Content visible> */
-                                /* <Image className='Change' src={monuments} size='medium' circular/> */
-                            /* </Reveal.Content>
-                           <Reveal.Content hidden> 
-                                <Image src={trivia} size='medium' />
-                            </Reveal.Content> 
-                        </Reveal> */
-                    /* </Grid.Column>
-                    <Grid.Column className='Change'>
-                        <Image src={trivia} size='medium' circular />
-                    </Grid.Column>
-                    <Grid.Column className='Change'>
-                        <Image src={IFOTF} size='medium' circular />
-                    </Grid.Column >
-                    <Grid.Column className='Change'>
-                        <Image src={elicit} size='medium' circular />
-                    </Grid.Column>
-                    <Grid.Column className='Change'>
-                        <Image src={multitudes} size='medium' circular />
-                    </Grid.Column>  */
+              </Link>
+            </MDBCol>
+          </MDBRow>
+        </Grid>
+      </MDBContainer>
 
-                /* </Grid> */
-            /* </div> */
-        )
-    }
+
+
+
+
+      // <div>
+      //     <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={4}>
+      //     <MDBView hover>
+      //   <img src={monuments}
+      //     className="img-fluid"
+      //     alt=""/>
+      //   <MDBMask className="flex-center" overlayteal-strong">
+      //     <p className="project-text">Strong overlay</p>
+      //   </MDBMask>
+      //   </MDBView>
+      /* <Grid.Column className='Change'>
+          {/* <Reveal animated='fade'>
+              <Reveal.Content visible> */
+      /* <Image className='Change' src={monuments} size='medium' circular/> */
+      /* </Reveal.Content>
+     <Reveal.Content hidden> 
+          <Image src={trivia} size='medium' />
+      </Reveal.Content> 
+  </Reveal> */
+      /* </Grid.Column>
+      <Grid.Column className='Change'>
+          <Image src={trivia} size='medium' circular />
+      </Grid.Column>
+      <Grid.Column className='Change'>
+          <Image src={IFOTF} size='medium' circular />
+      </Grid.Column >
+      <Grid.Column className='Change'>
+          <Image src={elicit} size='medium' circular />
+      </Grid.Column>
+      <Grid.Column className='Change'>
+          <Image src={multitudes} size='medium' circular />
+      </Grid.Column>  */
+
+      /* </Grid> */
+      /* </div> */
+    )
+  }
 }
 

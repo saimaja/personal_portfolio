@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Divider, Embed } from 'semantic-ui-react'
+import { Grid, Divider } from 'semantic-ui-react'
 import { Carousel } from 'react-bootstrap'
 import elicit_img from './images/elicit.png'
 import './App.css'
@@ -20,13 +20,6 @@ export default class Monuments extends Component {
                             <br />
                             <br />
                             <div style={{ textAlign: 'left' }}>
-                                {/* + Utilized React, Mapbox GL, and Semantic UI for an efficient client-side experience with dynamic visualizations
-                    <br />
-                    + Developed Rails backend with API endpoints for fetch requests and PostgreSQL for data persistence
-                    <br />
-                    + Adhered to RESTful conventions, applied MVC pattern, and built out core CRUD functionality
-                    <br />
-                    + Data seeded from csv file provided by the Southern Poverty Law Center's Whose Heritage Project */}
                             </div>
                         </div>
                     </Grid.Column>

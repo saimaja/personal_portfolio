@@ -28,11 +28,7 @@ export default class Multitudes extends Component {
                 </div>
                     </div>
                 </Grid.Column>
-                {/* <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
-          
-          OTHER
-   
-      </Grid.Column> */}
+                
       <Grid.Column style={{width: '60%', textAlign: 'justify'}} className='text'>
 
     <span className='text'>Profile: <a href="http://bit.ly/2C50CjG" rel="noopener noreferrer" target="_blank">Art as a way to resist negative images and Islamophobia</a></span>
@@ -50,7 +46,6 @@ export default class Multitudes extends Component {
 
                     <Embed
                         id='455662095'
-                        // placeholder={}
                         source='vimeo'
                     />
                 </Grid.Column>

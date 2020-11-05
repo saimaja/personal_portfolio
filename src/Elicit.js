@@ -35,11 +35,6 @@ export default class Elicit extends Component {
                            
                     </Grid.Column>
                     <Grid.Column style={{ textAlign: 'left' }}>
-                    {/* + Designed frontend with React, Javascript, Semantic UI, Bootstrap, and custom CSS for a streamlined user experience
-                    <br />
-                    + Created a Rails backend to handle fetch requests to external Harvard Art Museums API
-                    <br />
-                    + PostgreSQL for data persistence */}
                     </Grid.Column>
                 </Grid>
 
