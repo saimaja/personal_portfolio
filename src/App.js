@@ -4,7 +4,7 @@ import Projects from './Projects';
 import About from './About';
 import CV from './CV';
 // import Contact from './Contact';
-import Research from './Research';
+import Writing from './Writing';
 import Trivia from './Trivia.js'
 import Elicit from './Elicit.js'
 import Anqa from './Anqa.js'
@@ -35,8 +35,8 @@ export default function App () {
             <Nav>
               <Nav.Link as={NavLink} to='/about' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>ABOUT</Nav.Link>
               <Nav.Link as={NavLink} to='/cv' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>CV</Nav.Link> 
-              <Nav.Link as={NavLink} to="/research" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>RESEARCH</Nav.Link>
-              <Nav.Link as={NavLink} to="/projects" onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
+              <Nav.Link as={NavLink} to='/writing' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>WRITING</Nav.Link>
+              <Nav.Link as={NavLink} to='/projects' onClick={() => setTimeout(() => {setExpanded(false)}, 250)} activeStyle={{color: 'teal'}} className='nav-menu-text'>PROJECTS</Nav.Link>
               {/* <Nav.Link as={NavLink} to="/contact" activeStyle={{color: 'teal'}} className='nav-menu-text'>CONTACT</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
@@ -53,8 +53,8 @@ export default function App () {
             <Route exact path='/cv' render={() =>
               <CV />} />
 
-            <Route exact path='/research' render={() =>
-              <Research />} />
+            <Route exact path='/writing' render={() =>
+              <Writing />} />
 
             <Route exact path='/projects' render={() =>
               <Projects />} />

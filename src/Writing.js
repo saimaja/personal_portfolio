@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Divider } from 'semantic-ui-react'
 import pic from './images/english.png'
 
-export default class Research extends Component {
+export default class Writing extends Component {
     render() {
         return (
             <div> 

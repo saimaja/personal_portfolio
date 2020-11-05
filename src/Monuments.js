@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Divider, Embed } from 'semantic-ui-react'
 import { Carousel } from 'react-bootstrap'
-import trivia_demo from './images/trivia_demo.png'
 import elicit_img from './images/elicit.png'
 import './App.css'
 

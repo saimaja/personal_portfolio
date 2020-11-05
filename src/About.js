@@ -26,7 +26,7 @@ export default class About extends Component {
           <Grid.Column style={{ width: '70%', textAlign: 'justify' }} className='text'>
             I'm an interdisciplinary designer with a background in architecture and urban studies. As a trained social scientist and programmer,
           the questions that drive me are at the intersection of technology and design -- whether I’m <a className='link' href="http://www.saimaakhtar.com/projects" >building</a> user-friendly applications
-          or <a className='link' href="http://www.saimaakhtar.com/research" >writing</a> about the ethical implications of integrating technology into our everyday lives.
+          or <a className='link' href="http://www.saimaakhtar.com/writing" >writing</a> about the ethical implications of integrating technology into our everyday lives.
           <br />
             {/* I write about immigration and labor history in my hometown of Detroit, curate art exhibits, and have worked on digital projects about cultural heritage preservation. */}
             <br />

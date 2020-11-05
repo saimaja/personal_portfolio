@@ -8,6 +8,7 @@ import IFOTF_img from './images/IFOTF.png'
 import monuments_img from './images/monuments.png'
 import multitudes_img from './images/multitudes.png'
 import trivia_img from './images/trivia.png'
+import bimaristan from './images/bimaristan.png'
 import './App.css'
 
 export default class Projects extends Component {
@@ -20,14 +21,12 @@ export default class Projects extends Component {
             
             <MDBRow>
 
-            <Grid.Column style={{width: '30%', paddingTop: '0', paddingBottom: '0'}} className='cv-caption-text'>
+            <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
             DIGITAL
-                
-         
             </Grid.Column>
-          <Grid.Column style={{ width: '100%', paddingTop: '0' }}><Divider /></Grid.Column>
+          <Grid.Column style={{ width: '100%'}}><Divider /></Grid.Column>
 
-            <MDBCol md="4">
+            <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
                 <Link to={'/projects/monuments'}>
                 <MDBView hover zoom>
                   <img
@@ -43,7 +42,7 @@ export default class Projects extends Component {
               </MDBCol>
 
             
-          <MDBCol md="4">
+          <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
           <Link to={'/projects/elicit'}>
             <MDBView hover zoom>
               <img
@@ -59,7 +58,7 @@ export default class Projects extends Component {
             </Link>
           </MDBCol>
 
-          <MDBCol md="4">
+          <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
           <Link to={'/projects/trivia'}>
                 <MDBView hover zoom>
                   <img
@@ -73,17 +72,34 @@ export default class Projects extends Component {
                 </MDBView>
                 </Link>
               </MDBCol>
+              
+              <MDBCol md="4" style={{paddingTop: '10px'}}>
+          <Link to={'/projects/anqa'}>
+                <MDBView hover zoom>
+                  <img
+                    src={bimaristan}
+                    className="img-fluid"
+                    alt="" />
+                  <MDBMask className="flex-center"
+                   overlay = 'teal-strong' >
+                    <p className="project-text">ANQA</p>
+                  </MDBMask>
+                </MDBView>
+                </Link>
+                
+              </MDBCol>
               </MDBRow>
+
            
 
               <MDBRow className="mt-4">
-              <Grid.Column style={{width: '30%', paddingTop: '0', paddingBottom: '0'}} className='cv-caption-text'>
+              <Grid.Column style={{width: '30%'}} className='cv-caption-text'>
             CURATORIAL
 
             </Grid.Column>
-          <Grid.Column style={{ width: '100%', paddingTop: '0' }}><Divider /></Grid.Column>
+          <Grid.Column style={{ width: '100%'}}><Divider /></Grid.Column>
               
-              <MDBCol md="4">
+              <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
               <Link to={'/projects/multitudes'}>
                 <MDBView hover zoom>
                   <img
@@ -98,7 +114,7 @@ export default class Projects extends Component {
                 </Link>
               </MDBCol>
 
-              <MDBCol md="4">
+              <MDBCol md="4" style={{paddingTop: '10px', paddingBottom: '15px'}}>
               <Link to={'/projects/ifotf'}>
                 <MDBView hover zoom>
                   <img
