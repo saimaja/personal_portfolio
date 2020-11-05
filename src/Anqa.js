@@ -11,19 +11,25 @@ export default class Anqa extends Component {
                 <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
                     <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>ANQA</strong></div>
+                        <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>PROJECT ANQA</strong></div>
                         <Divider></Divider>
 
-                        <div style={{ textAlign: 'right' }}><i>The practice of digitizing cultural heritage is gaining ground among conservation scientists and scholars in architecture, art history, computer science and other related fields. Recently the location of such sites in areas of intense conflict has highlighted the urgent need for documenting cultural heritage for the purposes of preservation and posterity. The recording of such sites, however, is not limited to their digitization but should also include their meaningful interpretation with respect to intangible values. This practice necessitates new tools, which go a step beyond simple digitization.
-
-Project Anqa is an attempt to counter the devastating loss of cultural heritage throughout the Middle East, most notably in Syria and Iraq. Through an interdisciplinary process, Anqa collects and processes data, historical contextualizes it, and makes information accessible and useful scholars, peers, and the general public through state-of-the-art tools, which include photogrammetry and laser scanning.
-
-The project works with support from Arcadia Fund, UK (https://www.arcadiafund.org.uk/) and through partnerships with CyArk (www.cyark.org), the International Council on Monuments and Sites (ICOMOS) (http://www.icomos.org), and Yale University. What sets Anqa apart is our effort to engage in capacity-building on the ground, as well as to create an educational web platform that informs viewers about cultural heritage in the region through research, digital storytelling, and the experience of virtual environments.</i>
-                            <br />
-                            <br />
-                            <div style={{ textAlign: 'left' }}>
+                        <div style={{ textAlign: 'right', fontWeight: '900' }}><i>
+                        Project Anqa, conceived while at Yale University, envisions a way to counter the loss of cultural heritage sites that is not limited to digitizing buildings. It takes into account the meaningful interpretation of sites with respect to their historical context and intangible values.
+                        This necessitates new ways of thinking, which go a step beyond simple digitization.</i>
+                            <br /> <br />
                             </div>
+                            <div style={{ textAlign: 'justify'}}>
+                                The practice of digitizing 'at-risk' cultural heritage is gaining ground among conservation scientists and scholars of architecture, archaeology, computer science and related fields.
+                                The location of such sites in areas of intense conflict has triggered the appearance of a number of (primarily U.S. and European-based) emergency funds and institutional projects aimed at documenting cultural heritage for the purposes of preservation and posterity.
+                                The digital recording of sites alone, however, amounts to what some would call neo-colonialist attempts at gathering, collecting, and showcasing data for the sake of institutional prestige rather than for the betterment of the societies and cities in which the sites are located.
+                        <br /><br />
+
+                        Through a collaborative and interdisciplinary process with teams 'on the ground', Anqa collects and processes data, historically contextualizes it, and makes information accessible for researchers and the general public through state-of-the-art tools, including photogrammetry and laser scanning.
+                        It serves as a model for an educational web platform or app that can inform viewers about cultural heritage through ethnographic research and digital storytelling.
+                        <br /><br />
                         </div>
+                       
                     </Grid.Column>
                 </Grid>
 
