@@ -8,13 +8,11 @@ export default class Elicit extends Component {
     render() {
         return (
             <>
-                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px' }} >
-
-                    <Grid.Column className='text' >
-                        <div style={{ textAlign: 'left' }} className='cv-caption-text'>E-LICIT ART</div>
-                        <Divider></Divider>
-
-                        <div style={{ textAlign: 'justify', width: '75%', fontWeight:'900' }}><i>
+             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>E-LICIT ART
+                        <Divider ></Divider></div>
+                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px' }} >
+                    <Grid.Column >
+                        <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight:'900' }}><i>
                         E-licit Art is a faux e-commerce platform meant to encourage users to think about the origins of art, its relationship to museums, and speculative valuations. 
                 How do elite institutions acquire artwork? How much of it ends up on <a className='link'
                 href= 'https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see' rel="noopener noreferrer" target='_blank'>
@@ -24,7 +22,7 @@ export default class Elicit extends Component {
                            
                     </Grid.Column>
                     <Grid.Column className='text' >
-                    <div style={{ textAlign: 'justify', paddingTop: '35px' }}>
+                    <div style={{ textAlign: 'justify'}}>
                     In recent years, some European and North American museums have started to reconsider the history and provenance of
                 their Near Eastern and African collections, such as <a className='link' 
                 href= 'https://www.theatlantic.com/international/archive/2018/03/iraq-war-archeology-invasion/555200/' rel="noopener noreferrer" target='_blank'>archaeological artifacts from Iraq</a> or <a className='link' 
@@ -33,7 +31,7 @@ export default class Elicit extends Component {
                 missing or lost verification information, and randomly assigned worth.
                 <br />
                 <br />
-                The data for E-licit Art comes from the <a className='link' 
+                The data for E-licit Art is seeded from the <a className='link' 
                 href= 'https://www.harvardartmuseums.org/collections/api' rel="noopener noreferrer" target='_blank'>Harvard Art Museums API</a>.
                     </div>
                     </Grid.Column>

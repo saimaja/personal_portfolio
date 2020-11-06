@@ -6,12 +6,11 @@ export default class Multitudes extends Component {
         return (
             
             <>
-            <Grid style={{ paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
+             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>MULTITUDES
+                        <Divider ></Divider></div>
+            <Grid style={{paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
                 <Grid.Column style={{ width: '67%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
-                    <div style={{ textAlign: 'right' }} className='cv-caption-text'><strong>MULTITUDES</strong></div>
-                    <Divider></Divider>
-
                     <div style={{ textAlign: 'right' }}>
                     <i>A number of exhibitions since 9/11 have used art as a platform to counter discrimination and Islamophobia by humanizing Muslims and emphasizing their contributions to US society. 
                     Yet, even when cast in a positive light, the image of Muslims often remains oversimplified. Moreover, the full negative impact of actions such as the #muslimban in 2017 on a diversity of communities (including Sikhs and non-Muslim Arabs) remains unacknowledged.

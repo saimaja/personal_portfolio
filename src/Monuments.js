@@ -1,29 +1,34 @@
 import React, { Component } from 'react'
 import { Grid, Divider } from 'semantic-ui-react'
 import { Carousel } from 'react-bootstrap'
-import elicit_img from './images/elicit.png'
+import landing_page from './images/monuments/1.png'
+import landing_search from './images/monuments/2.png'
+import monument_detail from './images/monuments/4.png'
+import map from './images/monuments/5.png'
+import map_filter from './images/monuments/6.png'
+import profile from './images/monuments/7.png'
+import read_blog from './images/monuments/8.png'
+import create_blog from './images/monuments/9.png'
+import edit_blog from './images/monuments/10.png'
+import delete_blog from './images/monuments/11.png'
+import blog_feed from './images/monuments/12.png'
 import './App.css'
 
 export default class Monuments extends Component {
     render() {
         return (
             <>
-                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px'}} >
+             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} className='cv-caption-text'>MONUMENTS
+                        <Divider ></Divider></div>
+                <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px'}} >
 
-                    <Grid.Column className='text'>
-                        <div style={{ textAlign: 'left' }} className='cv-caption-text'>MONUMENTS</div>
-                        <Divider></Divider>
-
-                        <div style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}>
+                    <Grid.Column >
+                        <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}>
                         <i>A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
-                               The data comes from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' target='_blank' rel="noopener noreferrer" >Whose Heritage Project</a>, which
+                               The data is seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' target='_blank' rel="noopener noreferrer" >Whose Heritage Project</a>, which
                                is vetted and updated on a daily basis.</i>
                                <Divider></Divider>
                         </div>
-                    </Grid.Column>
-                    <Grid.Column className='text' style={{ textAlign: 'justify', paddingTop: '50px' }}>
-                            ajfdkljasdkfljsdkfjkalsd;fjkdslfjkaslfj. djklfjkalfj dklsfj.jfklajfklds;fdjlsdkfdjfskl.jkdl;afjkdls;fjkdslfjkaslfjkdlfjkl.
-                            jdsklf;jkslfj.j kdlsjfklsd;jfkal;jf. djklafjdksl;;.
                     </Grid.Column>
                 </Grid>
                 
@@ -32,14 +37,14 @@ export default class Monuments extends Component {
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
-                        <Carousel>
+                        <Carousel >
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={elicit_img}
+                                    src={landing_page}
                                     alt="First slide"
                                 />
-                                <Carousel.Caption>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
                                     <h3>First slide label</h3>
                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                 </Carousel.Caption>
@@ -47,34 +52,125 @@ export default class Monuments extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                                    src={landing_search}
                                     alt="Second slide"
                                 />
 
-                                <Carousel.Caption>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
                                     <h3>Second slide label</h3>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={monument_detail}
+                                    alt="Third slide"
+                                />
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Third slide label</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={map}
+                                    alt="Fourth slide"
+                                />
+
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Fourth slide label</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                                    alt="Third slide"
+                                    src={map_filter}
+                                    alt="Fifth slide"
                                 />
 
-                                <Carousel.Caption>
-                                    <h3>Third slide label</h3>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Fifth slide label</h3>
                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
-                        </Carousel>
 
-                        {/* <Embed
-                            id='455662095'
-                            placeholder={trivia_demo}
-                            source='vimeo'
-                        /> */}
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={profile}
+                                    alt="Sixth slide"
+                                />
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Sixth slide label</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={read_blog}
+                                    alt="Seventh slide"
+                                />
+
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Seventh slide label</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={create_blog}
+                                    alt="Eighth slide"
+                                />
+
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Eighth slide label</h3>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        
+
+                        <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={edit_blog}
+                                    alt="Ninth slide"
+                                />
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Ninth slide label</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={delete_blog}
+                                    alt="Tenth slide"
+                                />
+
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Tenth slide label</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={blog_feed}
+                                    alt="Eleventh slide"
+                                />
+
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
+                                    <h3>Eleventh slide label</h3>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            </Carousel>
                     </Grid.Column>
 
                     <Grid.Column style={{ width: '30%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>

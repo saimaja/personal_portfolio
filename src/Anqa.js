@@ -8,13 +8,12 @@ export default class Anqa extends Component {
     render() {
         return (
             <>
-                <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '35px'}} >
+              <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>PROJECT ANQA
+                        <Divider ></Divider></div>
+                <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px'}} >
 
-                    <Grid.Column className='text'>
-                        <div style={{ textAlign: 'right'}} className='cv-caption-text'>PROJECT ANQA</div>
-                        <Divider></Divider>
-
-                        <div style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}><i>
+                    <Grid.Column >
+                        <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}><i>
                         Project Anqa, conceived while at Yale University, envisions a way to counter the loss of cultural heritage sites that is not limited to digitizing buildings. It takes into account the meaningful interpretation of sites with respect to their historical context and intangible values.
                         This necessitates new ways of thinking, going a step beyond simple digitization.</i>
                         <Divider></Divider>
