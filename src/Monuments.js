@@ -35,7 +35,7 @@ export default class Monuments extends Component {
                 
 
 
-                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
                         <Carousel >
                             <Carousel.Item>
@@ -44,9 +44,9 @@ export default class Monuments extends Component {
                                     src={landing_page}
                                     alt="First slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Landing page</h3>
+                                    <p>Users can browse through a collection of 1900 monument 'cards' and add or remove them from their profiles based on interest.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -56,9 +56,9 @@ export default class Monuments extends Component {
                                     alt="Second slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Second slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Filter and Search functions</h3>
+                                    <p>Users can also use the responsive search bar to find a monument by name as well as filter by 'Removed' or 'Renamed' monuments .</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
@@ -68,9 +68,9 @@ export default class Monuments extends Component {
                                     src={monument_detail}
                                     alt="Third slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Third slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Monument details</h3>
+                                    <p>Each monument 'card' holds details about the site, including monument type, year built, honoree, location, and whether there are any blogs written about it.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -80,9 +80,9 @@ export default class Monuments extends Component {
                                     alt="Fourth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Fourth slide label</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Map feature</h3>
+                                    <p>The responsive map view visualizes the location of each monument in the United States. Users can zoom in, out, and tilt, the map. </p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -92,9 +92,9 @@ export default class Monuments extends Component {
                                     alt="Fifth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Fifth slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Map filter</h3>
+                                    <p>Filtering by 'Removed' or 'Renamed' monuments also works on the map view.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
@@ -104,9 +104,9 @@ export default class Monuments extends Component {
                                     src={profile}
                                     alt="Sixth slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Sixth slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>User profile</h3>
+                                    <p>Each user has a profile with basic information, including the monuments they've added to their page. Users can delete monuments from their page, as well write, edit, and delete blogs.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -116,9 +116,9 @@ export default class Monuments extends Component {
                                     alt="Seventh slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Seventh slide label</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Blog</h3>
+                                    <p>Each blog has a 'tag' feature, which associates the topic of the blog to one or more monument. Users must add a monument to their profile to tag it.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -128,9 +128,9 @@ export default class Monuments extends Component {
                                     alt="Eighth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Eighth slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Write blog</h3>
+                                    <p>Users can choose to tag a monument, create a title, and write content. There is no word minumum, but users will be alerted if their blog contains no content.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         
@@ -141,9 +141,9 @@ export default class Monuments extends Component {
                                     src={edit_blog}
                                     alt="Ninth slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Ninth slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Edit blog</h3>
+                                    <p>Editing a blog allows a user to change the tagged monument, as well as edit the title and content of their blog.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -153,9 +153,9 @@ export default class Monuments extends Component {
                                     alt="Tenth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Tenth slide label</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Delete blog</h3>
+                                    <p>Users will be asked to confirm when they wish to delete content.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -165,9 +165,9 @@ export default class Monuments extends Component {
                                     alt="Eleventh slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.6'}}>
-                                    <h3>Eleventh slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                    <h3>Blog feed</h3>
+                                    <p>All blogs are available to read and listed by date published.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             </Carousel>
@@ -185,7 +185,7 @@ export default class Monuments extends Component {
                             <a href='http://monumentz.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>Live Demo</a>
                             <br />
                             <br />
-                            <div style={{ fontWeight: '900' }}>
+                            <div >
                                 + Utilized React, Mapbox GL, and Semantic UI for an efficient client-side experience with dynamic visualizations
                     <br />
                     + Developed Rails backend with API endpoints for fetch requests and PostgreSQL for data persistence
