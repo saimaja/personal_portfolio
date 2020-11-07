@@ -73,7 +73,7 @@ export default class Projects extends Component {
               </Link>
             </MDBCol>
 
-            <MDBCol md="4" style={{ paddingTop: '10px' }}>
+            {/* <MDBCol md="4" style={{ paddingTop: '10px' }}>
               <Link to={'/projects/anqa'}>
                 <MDBView hover zoom>
                   <img
@@ -87,7 +87,7 @@ export default class Projects extends Component {
                 </MDBView>
               </Link>
 
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
 
 
@@ -114,7 +114,7 @@ export default class Projects extends Component {
               </Link>
             </MDBCol>
 
-            <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
+            {/* <MDBCol md="4" style={{ paddingTop: '10px', paddingBottom: '15px' }}>
               <Link to={'/projects/ifotf'}>
                 <MDBView hover zoom>
                   <img
@@ -127,7 +127,7 @@ export default class Projects extends Component {
                   </MDBMask>
                 </MDBView>
               </Link>
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
         </Grid>
       </MDBContainer>

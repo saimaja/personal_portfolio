@@ -18,8 +18,9 @@ export default class CV extends Component {
                         <div style={{textAlign: 'justify'}}>Managed cultural heritage preservation projects between the fields of computer science and architecture. Oversaw a team of
                             computer science students and researchers to develop <i>Anqa</i>, an open access web platform documenting six cultural heritage sites in Damascus, Syria. 
                             Spearheaded workshops, research, design, and wireframing, with an emphasis on ethical preservation practices and storytelling from the ground up.
-                            To learn more, click
-                            <a className='link' href='/projects/anqa'> here.</a></div>
+                            {/* To learn more, click
+                            <a className='link' href='/projects/anqa'> here.</a> */}
+                            </div>
                         <br />
                         <br />
                         <span className='cv-header'>Curator</span>
@@ -50,7 +51,7 @@ export default class CV extends Component {
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}> Oakland, CA | 2014</span>
                       
                         <div style={{textAlign: 'justify'}}> Conducted research based on design thinking for <a className='link' href='https://www.cell-ed.com/' rel="noopener noreferrer" target='_blank'>Cell-ED</a>, an English-as-a-Second-Language (ESL) educational 
-                            startup for adult learning. Wrote briefs and <a className='link' href='https://gobeefellows.wordpress.com/2014/08/04/an-education/' rel="noopener noreferrer" target='_blank'>literacy analyses </a> 
+                            startup for adult learning. Wrote policy briefs and <a className='link' href='https://gobeefellows.wordpress.com/2014/08/04/an-education/' rel="noopener noreferrer" target='_blank'>literacy analyses </a> 
                             that focused on improving access to English learning for adults in upstate New York, and assisted in improving pedagogical design.</div>
 
 
@@ -88,7 +89,7 @@ export default class CV extends Component {
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%', textAlign: 'justify' }} className='text'>
                         <span className='cv-header'>Technical</span><br />
-                            Ruby, Ruby on Rails, SQL, JavaScript, React, HTML, CSS, Git, Semantic, Bootstrap, Adobe Creative Suite, Adobe XD, AutoCAD, Tableau, ArcGIS, Revit
+                            Ruby/Rails, JavaScript, D3, React, SQL, HTML, CSS, Git, Semantic, Bootstrap, Adobe Creative Suite, Adobe XD, AutoCAD, Tableau, ArcGIS, Revit
                         <br />
 
                         <span className='cv-header'>Languages</span><br />

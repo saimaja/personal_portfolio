@@ -37,15 +37,15 @@ export default class Elicit extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid style={{ paddingLeft: '70px', paddingRight: '70px',paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
-                    <Grid.Column style={{ width: '67%' }}>
+                <Grid centered style={{ paddingLeft: '70px', paddingRight: '70px',paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
+                    {/* <Grid.Column style={{ width: '67%' }}>
 
                         <Embed
                             id='455662095'
                             placeholder={trivia_demo}
                             source='vimeo'
                         />
-                    </Grid.Column>
+                    </Grid.Column> */}
 
                     <Grid.Column style={{ width: '33%', textAlign: 'justify' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
