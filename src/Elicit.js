@@ -37,7 +37,7 @@ export default class Elicit extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px',paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '67%' }}>
 
                         <Embed
@@ -47,7 +47,7 @@ export default class Elicit extends Component {
                         />
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '33%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '33%', textAlign: 'justify' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <div className='dropdown' >
                                 <div className='button'>View Code</div>
@@ -67,11 +67,12 @@ export default class Elicit extends Component {
                     + PostgreSQL for data persistence
                     <br />
                     <br />
-                                Collaborator: Abhinav Sharma
+                    </div>
+                           <div className='project-description'>     
+                           Collaborator: Abhinav Sharma
                             <br />
                                 Built: June 2020</div>
                         </div>
-                        <br />
                     </Grid.Column>
 
                 </Grid>

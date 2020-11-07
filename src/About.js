@@ -35,7 +35,7 @@ export default class About extends Component {
           Fullstack engineering from the <a className='link' href="https://flatironschool.com/career-courses/coding-bootcamp" target="_blank" rel="noopener noreferrer" >Flatiron School</a>.
           <br />
             <br />
-          I love building things and thinking, writing, and speaking about how technology impacts cities and society. If you'd like to work together or chat, please <a className='link' href="mailto:saimaakhtar@gmail.com">get in touch</a>!
+          I love building things and thinking, writing, and speaking about how technology impacts cities and societies. If you'd like to work together or chat, please <a className='link' href="mailto:saimaakhtar@gmail.com">get in touch</a>!
           </Grid.Column>
         </Grid>
       </div>

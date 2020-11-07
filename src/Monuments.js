@@ -35,7 +35,7 @@ export default class Monuments extends Component {
                 
 
 
-                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
                         <Carousel >
                             <Carousel.Item>
@@ -173,7 +173,7 @@ export default class Monuments extends Component {
                             </Carousel>
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '30%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '30%', textAlign: 'justify'}} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <div className='dropdown' >
                                 <div className='button'>View Code</div>
@@ -185,7 +185,7 @@ export default class Monuments extends Component {
                             <a href='http://monumentz.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>Live Demo</a>
                             <br />
                             <br />
-                            <div >
+                            <div style={{fontWeight: '900'}}>
                                 + Utilized React, Mapbox GL, and Semantic UI for an efficient client-side experience with dynamic visualizations
                     <br />
                     + Developed Rails backend with API endpoints for fetch requests and PostgreSQL for data persistence
@@ -194,10 +194,9 @@ export default class Monuments extends Component {
                     <br />
                     + Data seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' rel="noopener noreferrer" target='_blank'>Whose Heritage Project</a>
                                 <br />
-                                <br />
-                    Built: July 2020</div>
+                                <br /></div>
+                    <div className='project-description'>Built: July 2020</div>
                         </div>
-                        <br />
                     </Grid.Column>
 
                 </Grid>

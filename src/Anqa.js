@@ -40,7 +40,7 @@ export default class Anqa extends Component {
                     </Grid.Column>
                     </Grid>
 
-                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
                         <Carousel>
                             <Carousel.Item>
@@ -87,7 +87,7 @@ export default class Anqa extends Component {
                         /> */}
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '30%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '30%', textAlign: 'justify' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <div className='dropdown' >
                                 <div className='button'>View Code</div>
@@ -108,10 +108,9 @@ export default class Anqa extends Component {
                     <br />
                     + Data seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' rel="noopener noreferrer" target='_blank'>Whose Heritage Project</a>
                                 <br />
-                                <br />
-                    Built: July 2020</div>
+                                <br /> </div>
+                    <div className='project-description'> Built: July 2020</div>
                         </div>
-                        <br />
                     </Grid.Column>
 
                 </Grid>

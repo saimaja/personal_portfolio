@@ -18,7 +18,7 @@ export default class Trivia extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', backgroundColor: '#ececec' }} stackable columns={2}>
+                <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '67%' }}>
 
                         <Embed
@@ -28,7 +28,7 @@ export default class Trivia extends Component {
                         />
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '33%', textAlign: 'justify', paddingLeft: '50px' }} className='text'>
+                    <Grid.Column style={{ width: '33%', textAlign: 'justify' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <a href='https://github.com/saimaja/trivia' rel="noopener noreferrer" className='button' target='_blank'>View Code</a>
                             <br />
@@ -45,11 +45,12 @@ export default class Trivia extends Component {
                     + Styled with Semantic UI and custom CSS for a clean, easy-to-use gaming interface
                     <br />
                     <br />
+                    </div>
+                    <div className='project-description'>
                     Collaborator: Mert Ozkaynak
                     <br />
                     Built: May 2020</div>
                         </div>
-                        <br />
                     </Grid.Column>
 
                 </Grid>
