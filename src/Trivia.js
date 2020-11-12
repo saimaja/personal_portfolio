@@ -21,12 +21,14 @@ export default class Trivia extends Component {
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '67%' }}>
 
-                        <Embed
+                        <Embed 
                             id='455662095'
                             placeholder={trivia_demo}
                             source='vimeo'
+
                         />
                     </Grid.Column>
+                    
 
                     <Grid.Column style={{ width: '33%', textAlign: 'justify' }} className='text'>
                         <div style={{ textAlign: 'left' }}>

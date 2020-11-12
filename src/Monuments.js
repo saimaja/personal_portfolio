@@ -18,21 +18,32 @@ export default class Monuments extends Component {
     render() {
         return (
             <>
-             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px'}} className='cv-caption-text'>MONUMENTS
+                <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>MONUMENTS
                         <Divider ></Divider></div>
-                <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px'}} >
+                <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px' }} >
 
                     <Grid.Column >
                         <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}>
-                        <i>A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
+                            <i>A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
                                The data is seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' target='_blank' rel="noopener noreferrer" >Whose Heritage Project</a>, which
                                is vetted and updated on a daily basis.</i>
-                               <Divider></Divider>
+                            <Divider></Divider>
+                        </div>
+                        <div className='project-descriptiion' style={{ textAlign: 'justify' }}>
+                          <strong>Challenge:</strong> 
+                        <br />
+                        <br />
+                        <strong>Result:</strong> The creation of a web platform that is searchable and visualizes confederate monuments in the United States. 
+                          Users should be able to add monuments to their profile, tag them, and write blogs about one or collection of sites.
+                    
                         </div>
                     </Grid.Column>
+                    <Grid.Column>
+                    <iframe src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>
+                    </Grid.Column>
                 </Grid>
-                
-                
+
+
 
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
@@ -44,7 +55,7 @@ export default class Monuments extends Component {
                                     src={landing_page}
                                     alt="First slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Landing page</h3>
                                     <p>Users can browse through a collection of 1900 monument 'cards' and add or remove them from their profiles based on interest.</p>
                                 </Carousel.Caption>
@@ -56,7 +67,7 @@ export default class Monuments extends Component {
                                     alt="Second slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Filter and Search functions</h3>
                                     <p>Users can also use the responsive search bar to find a monument by name as well as filter by 'Removed' or 'Renamed' monuments .</p>
                                 </Carousel.Caption>
@@ -68,7 +79,7 @@ export default class Monuments extends Component {
                                     src={monument_detail}
                                     alt="Third slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Monument details</h3>
                                     <p>Each monument 'card' holds details about the site, including monument type, year built, honoree, location, and whether there are any blogs written about it.</p>
                                 </Carousel.Caption>
@@ -80,7 +91,7 @@ export default class Monuments extends Component {
                                     alt="Fourth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Map feature</h3>
                                     <p>The responsive map view visualizes the location of each monument in the United States. Users can zoom in, out, and tilt, the map. </p>
                                 </Carousel.Caption>
@@ -92,7 +103,7 @@ export default class Monuments extends Component {
                                     alt="Fifth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Map filter</h3>
                                     <p>Filtering by 'Removed' or 'Renamed' monuments also works on the map view.</p>
                                 </Carousel.Caption>
@@ -104,7 +115,7 @@ export default class Monuments extends Component {
                                     src={profile}
                                     alt="Sixth slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>User profile</h3>
                                     <p>Each user has a profile with basic information, including the monuments they've added to their page. Users can delete monuments from their page, as well write, edit, and delete blogs.</p>
                                 </Carousel.Caption>
@@ -116,7 +127,7 @@ export default class Monuments extends Component {
                                     alt="Seventh slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Blog</h3>
                                     <p>Each blog has a 'tag' feature, which associates the topic of the blog to one or more monument. Users must add a monument to their profile to tag it.</p>
                                 </Carousel.Caption>
@@ -128,20 +139,20 @@ export default class Monuments extends Component {
                                     alt="Eighth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Write blog</h3>
                                     <p>Users can choose to tag a monument, create a title, and write content. There is no word minumum, but users will be alerted if their blog contains no content.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
-                        
 
-                        <Carousel.Item>
+
+                            <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={edit_blog}
                                     alt="Ninth slide"
                                 />
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Edit blog</h3>
                                     <p>Editing a blog allows a user to change the tagged monument, as well as edit the title and content of their blog.</p>
                                 </Carousel.Caption>
@@ -153,7 +164,7 @@ export default class Monuments extends Component {
                                     alt="Tenth slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Delete blog</h3>
                                     <p>Users will be asked to confirm when they wish to delete content.</p>
                                 </Carousel.Caption>
@@ -165,15 +176,15 @@ export default class Monuments extends Component {
                                     alt="Eleventh slide"
                                 />
 
-                                <Carousel.Caption style={{color: 'black', backgroundColor: 'white', opacity: '.7'}}>
+                                <Carousel.Caption style={{ color: 'black', backgroundColor: 'white', opacity: '.7' }}>
                                     <h3>Blog feed</h3>
                                     <p>All blogs are available to read and listed by date published.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
-                            </Carousel>
+                        </Carousel>
                     </Grid.Column>
 
-                    <Grid.Column style={{ width: '30%', textAlign: 'justify'}} className='text'>
+                    <Grid.Column style={{ width: '30%', textAlign: 'justify' }} className='text'>
                         <div style={{ textAlign: 'left' }}>
                             <div className='dropdown' >
                                 <div className='button'>View Code</div>
@@ -185,7 +196,7 @@ export default class Monuments extends Component {
                             <a href='http://monumentz.herokuapp.com/' rel="noopener noreferrer" className='button' target='_blank'>Live Demo</a>
                             <br />
                             <br />
-                            <div style={{fontWeight: '900'}}>
+                            <div style={{ fontWeight: '900' }}>
                                 + Utilized React, Mapbox GL, and Semantic UI for an efficient client-side experience with dynamic visualizations
                     <br />
                     + Developed Rails backend with API endpoints for fetch requests and PostgreSQL for data persistence
@@ -195,7 +206,7 @@ export default class Monuments extends Component {
                     + Data seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' rel="noopener noreferrer" target='_blank'>Whose Heritage Project</a>
                                 <br />
                                 <br /></div>
-                    <div className='project-description'>Built: July 2020</div>
+                            <div className='project-description'>Built: July 2020</div>
                         </div>
                     </Grid.Column>
 
