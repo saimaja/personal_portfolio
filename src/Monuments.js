@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Divider } from 'semantic-ui-react'
 import { Carousel } from 'react-bootstrap'
+import monuments_img from './images/monuments.png'
 import landing_page from './images/monuments/1.png'
 import landing_search from './images/monuments/2.png'
 import monument_detail from './images/monuments/4.png'
@@ -30,18 +31,51 @@ export default class Monuments extends Component {
                             <Divider></Divider>
                         </div>
                         <div className='project-description' style={{textAlign: 'justify' }}>
-                          <span style={{fontWeight: '900'}}>Challenge:</span> 
+                          <span style={{fontWeight: '900'}}>Challenge:</span> Confederate monuments highlight the role that heritage preservation <i>and destruction</i> can play in remaking
+                          difficult pasts and imagining a better future in the U.S.. The Southern Povery Law Center's <i>Whose Heritage</i> project lists and tracks the 'status' of such monuments across the country, including the naming/renaming or removal of statues, trees, street signs, schools, and parks.
+                          The challenge is to create a platform where users can critically reflect on the presence or absence of such markers in their cities or neighborhoods -- in effect, creating a sort of communal archive that documents and reimagines a collective heritage from the ground up.
                         <br />
                         <br />
-                        <span style={{fontWeight: '900'}}>Result:</span> The creation of a web platform that is searchable and visualizes confederate monuments in the United States. 
-                          Users should be able to add monuments to their profile, tag them, and write blogs about one site or collection of sites.
+                        <span style={{fontWeight: '900'}}>Result:</span> A web platform that is searchable and visualizes confederate monuments in the United States. 
+                        Users can add or remove monuments from their profile, write blogs, tag sites, and view a list of blogs by date posted.
                     
                         </div>
                     </Grid.Column>
-                    <Grid.Column>
-                    <iframe src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>
+                    <Grid.Column style={{textAlign: 'center'}}>
+                        <img style={{width: '90%'}}src={monuments_img}/>
                     </Grid.Column>
+                    
                 </Grid>
+
+                <Grid stackable reversed = 'mobile vertically' style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px' }} columns={2}>
+                <Grid.Column style={{textAlign: 'center', width: '55%'}}>
+                    <iframe style={{width: '100%'}}src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>
+                    </Grid.Column>
+
+                
+                <Grid.Column className = 'text' style={{width: '45%'}}>
+                <span style={{fontWeight: '900', fontSize: '15px'}}>PROCESS</span>
+                <br/>
+                <u>Diagramming:</u> Models and relationships were created based on three core
+                features (Users, Monuments, and Blogs) and two join tables. Stretch features include an ability for users to like, share, and comment
+                on each others blogs as well as follow other users.
+                <br/>
+                <br/>
+                <u>MVC:</u> Following an MVC pattern, I sketched out a component hierarchy, user stories, and value-driven mission statement.
+                User stories served to break down the experience from the perspective of an end-user, and determine how features should work with
+                design and usability in mind.  
+                <br/>
+                <br/>
+                <u>Color Swatch:</u> A color story helped with a cohesive feel on the front-end.
+                <br/>
+                <br/>
+                <u>Wireframing:</u> Mock-ups for each page bring together functionality, behavior, space allocation, and overall direction of the user interface. 
+                They also help establish RESTful URL conventions.
+                </Grid.Column>
+                
+           
+                </Grid>
+
 
 
 
