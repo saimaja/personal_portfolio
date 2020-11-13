@@ -49,8 +49,7 @@ export default class Monuments extends Component {
 
                 <Grid stackable reversed = 'mobile vertically' style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px' }} columns={2}>
                 <Grid.Column style={{textAlign: 'center', width: '55%'}}>
-                    <iframe style={{width: '100%'}}src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>
-                    </Grid.Column>
+                <iframe src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>                    </Grid.Column>
 
                 
                 <Grid.Column className = 'text' style={{width: '45%'}}>
