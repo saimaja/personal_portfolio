@@ -29,12 +29,12 @@ export default class Monuments extends Component {
                                is vetted and updated on a daily basis.</i>
                             <Divider></Divider>
                         </div>
-                        <div className='project-descriptiion' style={{ textAlign: 'justify' }}>
-                          <strong>Challenge:</strong> 
+                        <div className='project-description' style={{textAlign: 'justify' }}>
+                          <span style={{fontWeight: '900'}}>Challenge:</span> 
                         <br />
                         <br />
-                        <strong>Result:</strong> The creation of a web platform that is searchable and visualizes confederate monuments in the United States. 
-                          Users should be able to add monuments to their profile, tag them, and write blogs about one or collection of sites.
+                        <span style={{fontWeight: '900'}}>Result:</span> The creation of a web platform that is searchable and visualizes confederate monuments in the United States. 
+                          Users should be able to add monuments to their profile, tag them, and write blogs about one site or collection of sites.
                     
                         </div>
                     </Grid.Column>
@@ -48,7 +48,7 @@ export default class Monuments extends Component {
 
                 <Grid style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px', backgroundColor: '#ececec' }} stackable columns={2}>
                     <Grid.Column style={{ width: '70%' }}>
-                        <Carousel >
+                        <Carousel className='color'>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
