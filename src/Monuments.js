@@ -61,7 +61,7 @@ export default class Monuments extends Component {
                 on each others blogs as well as follow other users.
                 <br/>
                 <br/>
-                <u>MVC:</u> Following an MVC pattern, I sketched out a component hierarchy, user stories, and value-driven mission statement.
+                <u>Relationships:</u> Following an MVC pattern, I sketched out a component hierarchy, user stories, and value-driven mission statement.
                 User stories served to break down the experience from the perspective of an end-user, and determine how features should work with
                 design and usability in mind.  
                 <br/>
