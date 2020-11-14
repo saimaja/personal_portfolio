@@ -48,11 +48,12 @@ export default class Monuments extends Component {
                 </Grid>
 
                 <Grid stackable reversed = 'mobile vertically' style={{ paddingLeft: '70px', paddingRight: '70px', paddingTop: '30px', paddingBottom: '30px' }} columns={2}>
-                <Grid.Column style={{textAlign: 'center', width: '55%'}}>
-                <iframe src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>                    </Grid.Column>
+                <Grid.Column style={{width: '55%'}}>
+                <iframe style={{textAlign: 'center', width: '100%'}} src='https://prezi.com/embed/0_-gap1w6l9c/' id='iframe_container' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen='' allow='autoplay; fullscreen' height='315' width='560'></iframe>                    </Grid.Column>
 
                 
                 <Grid.Column className = 'text' style={{width: '45%'}}>
+                <div style={{ width: '100%'}}>
                 <span style={{fontWeight: '900', fontSize: '15px'}}>PROCESS</span>
                 <br/>
                 <u>Diagramming:</u> Models and relationships were created based on three core
@@ -69,7 +70,7 @@ export default class Monuments extends Component {
                 <br/>
                 <br/>
                 <u>Wireframing:</u> Mock-ups for each page bring together functionality, behavior, space allocation, and overall direction of the user interface. 
-                They also help establish RESTful URL conventions.
+                They also help establish RESTful URL conventions.</div>
                 </Grid.Column>
                 
            
