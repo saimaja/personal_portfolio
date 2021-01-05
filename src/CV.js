@@ -103,6 +103,8 @@ export default class CV extends Component {
                     </Grid.Column>
                     <Grid.Column style={{ width: '60%'}} >
                     {/* <span className='cv-header'>Teaching + Invited Talks (Selected)</span><br /> */}
+                    <span className='cv-caption-text'>Guest Coach, <a className='link' href="https://cambridge.nuvustudio.com/users/saima-akhtar" rel="noopener noreferrer" target="_blank">Coded Bias</a></span>
+                        <span className='cv-subheader' style={{paddingBottom: '10px'}}><a className='link' href="https://cambridge.nuvustudio.com/" rel="noopener noreferrer" target="_blank">NuVu Studio</a> | Cambridge, MA | Winter 2021</span>
                         <span className='cv-caption-text'>Invited Critic, Shadow Archives 1 & 2 </span>
                         <span className='cv-subheader' style={{paddingBottom: '10px'}}>Rhode Island School of Design, Department of Interior Architecture | Advanced Design Studio | Spring + Fall 2020</span>
                         <span className='cv-caption-text'>Invited Critic, <a className='link' href="https://www.architecture.yale.edu/courses/23781-advanced-design-studio" rel="noopener noreferrer" target="_blank">Myths of Permanent Cities</a> </span>
