@@ -7,7 +7,7 @@ export default class Trivia extends Component {
     render() {
         return (
             <>
-             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>TRIVIA
+             <div style={{ textAlign: 'left', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='project-caption-text'>TRIVIA
                         <Divider ></Divider></div>
                 <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px'}} >
                     <Grid.Column >

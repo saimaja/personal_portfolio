@@ -8,7 +8,7 @@ export default class Anqa extends Component {
     render() {
         return (
             <>
-              <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>PROJECT ANQA
+              <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='project-caption-text'>PROJECT ANQA
                         <Divider ></Divider></div>
                 <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px'}} >
 

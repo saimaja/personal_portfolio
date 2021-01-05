@@ -19,15 +19,15 @@ export default class Monuments extends Component {
     render() {
         return (
             <>
-                <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>MONUMENTS
+                <div style={{ textAlign: 'left', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='project-caption-text'>MONUMENTS
                         <Divider ></Divider></div>
                 <Grid stackable columns={2} style={{ paddingLeft: '70px', paddingRight: '70px' }} >
 
                     <Grid.Column >
                         <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight: '900' }}>
-                            <i>A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
+                            A site where users can visualize and critically reflect on the current landscape of confederate monuments in the United States.
                                The data is seeded from the Southern Poverty Law Center's <a className='link' href='https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy' target='_blank' rel="noopener noreferrer" >Whose Heritage Project</a>, which
-                               is vetted and updated on a daily basis.</i>
+                               is vetted and updated on a daily basis.
                             <Divider></Divider>
                         </div>
                         <div className='project-description' style={{textAlign: 'justify' }}>

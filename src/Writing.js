@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Divider } from 'semantic-ui-react'
-import pic from './images/english.png'
+import pic from './images/detroit.png'
 
 export default class Writing extends Component {
     render() {

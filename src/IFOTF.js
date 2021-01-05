@@ -7,7 +7,7 @@ export default class IFOTF extends Component {
     render() {
         return (
             <>
-             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>IN FRONT OF THE FACTORY
+             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='project-caption-text'>IN FRONT OF THE FACTORY
                         <Divider ></Divider></div>
                 <Grid style={{paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 

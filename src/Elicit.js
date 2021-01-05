@@ -8,15 +8,15 @@ export default class Elicit extends Component {
     render() {
         return (
             <>
-             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>E-LICIT ART
+             <div style={{ textAlign: 'left', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='project-caption-text'>E-LICIT ART
                         <Divider ></Divider></div>
                 <Grid stackable centered columns={2} style={{ paddingLeft: '70px', paddingRight: '70px' }} >
                     <Grid.Column >
-                        <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight:'900' }}><i>
+                        <div className='project-description' style={{ textAlign: 'justify', width: '75%', fontWeight:'900' }}>
                         E-licit Art is a faux e-commerce platform meant to encourage users to think about the origins of art, its relationship to museums, and speculative valuations. 
                 How do elite institutions acquire artwork? How much of it ends up on <a className='link'
                 href= 'https://www.bbc.com/culture/article/20150123-7-masterpieces-you-cant-see' rel="noopener noreferrer" target='_blank'>
-                display or hidden in storage</a>? And how should we, as artistic consumers, think about their social and economic worth? </i>
+                display or hidden in storage</a>? And how should we, as artistic consumers, think about their social and economic worth? 
                 <Divider></Divider>
                 </div>
                            

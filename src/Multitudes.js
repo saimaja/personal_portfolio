@@ -6,7 +6,7 @@ export default class Multitudes extends Component {
         return (
             
             <>
-             <div style={{ textAlign: 'right', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='cv-caption-text'>MULTITUDES
+             <div style={{ textAlign: 'left', paddingTop: '35px', paddingLeft: '70px', paddingRight: '70px' }} className='project-caption-text'>MULTITUDES
                         <Divider ></Divider></div>
             <Grid style={{paddingLeft: '70px', paddingRight: '70px' }} stackable columns={2}>
 
