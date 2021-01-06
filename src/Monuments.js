@@ -43,6 +43,11 @@ export default class Monuments extends Component {
                     </Grid.Column>
                     <Grid.Column style={{textAlign: 'center'}}>
                         <img style={{width: '90%'}}src={monuments_img}/>
+                        <br/>
+                        <span className='image-caption'> 
+                        Image composite of Jen Reid statue in Bristol, UK against backdrop of Robert E. Lee plinth <br/> in Richmond, VA
+                         [Composite by author]
+                        </span>
                     </Grid.Column>
                     
                 </Grid>
