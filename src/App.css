@@ -89,11 +89,6 @@ width: 100%;
   font-size: 11px;
 }
 
-.project-description {
-  font-family: raleway;
-  font-size: 13px;
-}
-
 
 
 /* cv text */
@@ -262,4 +257,14 @@ width: 100%;
 .project-caption-text{
   font-family: raleway;
   font-size: 20px;
+}
+
+.project-description {
+  font-family: raleway;
+  font-size: 13px;
+}
+
+.image-caption {
+  font-family: raleway;
+  font-size: 11px;
 }
